@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ - CodeMarket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-2" href="index.html">
+                <i class="bi bi-code-slash"></i> CodeMarket
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fs-5">
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="index.html">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="about.html">Giới Thiệu</a>
+                    </li>
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Sản Phẩm
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" style="min-width: 600px;">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <!-- bên trái -->
+                                    <div class="col-md-6 ">
+                                        <h6 class="dropdown-header">Website</h6>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=html">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" 
+                                                alt="HTML Icon" width="25" height="25" class="me-2">
+                                            HTML
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=php">                                         
+                                            <img src="https://cdn.simpleicons.org/php/777BB3" alt="PHP Icon" width="30" height="30" class="me-2">
+                                            <span class="me-2">PHP</span>
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=java">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" 
+                                                alt="Java Icon" width="30" height="30" class="me-2">
+                                            <span class="me-2">Java</span>
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=python">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" 
+                                                alt="Python Icon" width="30" height="30" class="me-2">
+                                            Python
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=csharp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" 
+                                                alt="C# Icon" width="30" height="30" class="me-2">
+                                            C#
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=javascript">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+                                                alt="JavaScript Icon" width="30" height="30" class="me-2">
+                                            JavaScript
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=typescript">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" 
+                                                alt="TypeScript Icon" width="30" height="30" class="me-2">
+                                            TypeScript
+                                        </a>
+
+                                        <hr class="dropdown-divider">
+                                        <h6 class="dropdown-header">Mobile App</h6>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=mobile&sub=android">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" 
+                                                alt="Android Icon" width="30" height="30" class="me-2">
+                                            Android
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=mobile&sub=ios">
+                                            <img src="https://cdn.simpleicons.org/apple/000000"  
+                                                alt="iOS Icon" width="30" height="30" class="me-2">
+                                            iOS
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=mobile&sub=reactnative">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" 
+                                                alt="React Native Icon" width="30" height="30" class="me-2">
+                                            React Native
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=mobile&sub=flutter">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" 
+                                                alt="Flutter Icon" width="30" height="30" class="me-2">
+                                            Flutter
+                                        </a>
+                                    </div>
+                                    <!-- bên phải -->
+                                    <div class="col-md-6">
+                                        <h6 class="dropdown-header">Desktop App</h6>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=java">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" 
+                                                alt="Java Icon" width="30" height="30" class="me-2">
+                                            <span class="me-2">Java</span>
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=csharp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" 
+                                                alt="C# Icon" width="30" height="30" class="me-2">
+                                            C#
+                                        </a>   
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=python">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" 
+                                                alt="Python Icon" width="30" height="30" class="me-2">
+                                            Python
+                                        </a>
+                                        <!-- cpp là c++ -->
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=cpp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                                                alt="C++ Icon" width="30" height="30" class="me-2">
+                                            C++
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=swift">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" 
+                                                alt="Swift Icon" width="30" height="30" class="me-2">
+                                            Swift
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=electron">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" 
+                                                alt="Electron Icon" width="30" height="30" class="me-2">
+                                            Electron
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=dart">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" 
+                                                alt="Dart Icon" width="30" height="30" class="me-2">
+                                            Dart
+                                        </a>
+                                        
+                                        <hr class="dropdown-divider">
+                                        <h6 class="dropdown-header">Game</h6>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=csharp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" 
+                                                alt="C# Icon" width="30" height="30" class="me-2">
+                                            C#
+                                        </a>  
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=cpp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                                                alt="C++ Icon" width="30" height="30" class="me-2">
+                                            C++
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=javascript">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+                                                alt="JavaScript Icon" width="30" height="30" class="me-2">
+                                            JavaScript
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=python">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" 
+                                                alt="Python Icon" width="30" height="30" class="me-2">
+                                            Python
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=java">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" 
+                                                alt="Java Icon" width="30" height="30" class="me-2">
+                                            <span class="me-2">Java</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12 text-center">
+                                        <a href="products.html" class="btn btn-primary btn-sm">Xem Tất Cả Sản Phẩm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="services.html">Dịch Vụ</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="knowledge.html">Kiến Thức</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Liên Hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-primary text-white" style="margin-top: 76px;">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto">
+                    <h1 class="display-4 fw-bold">Liên Hệ Với Chúng Tôi</h1>
+                    <p class="lead">Chúng tôi luôn sẵn sàng hỗ trợ và tư vấn cho bạn</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info-card text-center p-4">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-geo-alt text-primary"></i>
+                        </div>
+                        <h5>Địa Chỉ</h5>
+                        <p class="text-muted">
+                            Hẻm 41, Đ. Vỏ Trường Toản<br>
+                            Ninh Kiều, Cần Thơ
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info-card text-center p-4">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-phone text-primary"></i>
+                        </div>
+                        <h5>Điện Thoại</h5>
+                        <p class="text-muted">
+                            Hotline: +84 394 121 584<br>
+                            Support: +84 907 817 214
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info-card text-center p-4">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-envelope text-primary"></i>
+                        </div>
+                        <h5>Email</h5>
+                        <p class="text-muted">
+                            vikhangdev1708@gmail.com<br>
+                            vikhangksst@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info-card text-center p-4">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-clock text-primary"></i>
+                        </div>
+                        <h5>Giờ Làm Việc</h5>
+                        <p class="text-muted">
+                            T2-T6: 7:00 - 23:00<br>
+                            T7-CN: 8:00 - 22:00
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body p-5">
+                            <h3 class="fw-bold mb-4">Gửi Tin Nhắn</h3>
+                            <form id="contactForm">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Họ và Tên *</label>
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Email *</label>
+                                        <input type="email" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Số Điện Thoại</label>
+                                        <input type="tel" class="form-control">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Chủ Đề *</label>
+                                        <select class="form-select" required>
+                                            <option value="">Chọn chủ đề</option>
+                                            <option value="general">Câu hỏi chung</option>
+                                            <option value="product">Hỏi về sản phẩm</option>
+                                            <option value="service">Dịch vụ lập trình</option>
+                                            <option value="support">Hỗ trợ kỹ thuật</option>
+                                            <option value="partnership">Hợp tác kinh doanh</option>
+                                            <option value="other">Khác</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">Nội Dung *</label>
+                                        <textarea class="form-control" rows="6" required 
+                                                  placeholder="Mô tả chi tiết nhu cầu của bạn..."></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="agree" required>
+                                            <label class="form-check-label" for="agree">
+                                                Tôi đồng ý với <a href="#" class="text-primary">điều khoản sử dụng</a> và 
+                                                <a href="#" class="text-primary">chính sách bảo mật</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary btn-lg">
+                                            <i class="bi bi-send"></i> Gửi Tin Nhắn
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <!-- Quick Contact -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-header bg-primary text-white">
+                            <h6 class="mb-0"><i class="bi bi-lightning"></i> Liên Hệ Nhanh</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="quick-contact-item mb-3">
+                                <h6 class="fw-bold">Hỗ Trợ Kỹ Thuật</h6>
+                                <p class="text-muted small mb-2">Cần hỗ trợ gấp về source code?</p>
+                                <a href="tel:+84394121584" class="btn btn-outline-primary btn-sm">
+                                    <i class="bi bi-phone"></i> Gọi Ngay
+                                </a>
+                            </div>
+                            <div class="quick-contact-item mb-3">
+                                <h6 class="fw-bold">Tư Vấn Dự Án</h6>
+                                <p class="text-muted small mb-2">Muốn thảo luận về dự án mới?</p>
+                                <a href="vikhangdev1708@gmail.com" class="btn btn-outline-primary btn-sm">
+                                    <i class="bi bi-envelope"></i> Email
+                                </a>
+                            </div>
+                            <div class="quick-contact-item">
+                                <h6 class="fw-bold">Chat Trực Tiếp</h6>
+                                <p class="text-muted small mb-2">Nhận tư vấn trực tiếp online</p>
+                                <button class="btn btn-outline-primary btn-sm">
+                                    <i class="bi bi-chat-dots"></i> Chat Ngay
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Office Hours -->
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-header bg-success text-white">
+                            <h6 class="mb-0"><i class="bi bi-clock"></i> Giờ Hỗ Trợ</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="schedule-item d-flex justify-content-between mb-2">
+                                <span>Thứ 2 - Thứ 6:</span>
+                                <span class="fw-bold">7:00 - 23:00</span>
+                            </div>
+                            <div class="schedule-item d-flex justify-content-between mb-2">
+                                <span>Thứ 7:</span>
+                                <span class="fw-bold">8:00 - 22:00</span>
+                            </div>
+                            <div class="schedule-item d-flex justify-content-between mb-3">
+                                <span>Chủ Nhật:</span>
+                                <span class="fw-bold">8:00 - 22:00</span>
+                            </div>
+                            <div class="alert alert-success mb-0" role="alert">
+                                <small>
+                                    <i class="bi bi-check-circle me-1"></i>
+                                    Phản hồi trong vòng 30 phút
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-5 fw-bold">Vị Trí Văn Phòng</h2>
+                    <p class="lead text-muted">Ghé thăm văn phòng của chúng tôi tại Cần Thơ</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="map-container">
+                        <div class="ratio ratio-21x9">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d343.9187110358404!2d105.76670315510113!3d10.046926825855444!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDAyJzQ4LjQiTiAxMDXCsDQ1JzU5LjMiRQ!5e0!3m2!1svi!2s!4v1753626779328!5m2!1svi!2s" width="800" height="600" style="border:0;" 
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded shadow"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-5 fw-bold mb-4">Kết Nối Với Chúng Tôi</h2>
+                    <p class="lead mb-4">
+                        Theo dõi chúng tôi trên các mạng xã hội để cập nhật tin tức mới nhất
+                    </p>
+                    <div class="social-links-large">
+                        <a href="https://zalo.me/0394121584" class="btn btn-light btn-lg me-3 mb-3">
+                            <img src="assets/image/icon/zalo_icon.png" alt="Zalo" width="24" class="me-2">Zalo
+                        </a>
+                        <a href="https://www.facebook.com/khang.nguyen.253328?rdid=HTS6ZiX9mdAeonWz&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16jd3U7vSm%2F#" class="btn btn-light btn-lg me-3 mb-3">
+                            <img src="assets/image/icon/facebook_icon.png" alt="Facebook" width="24" class="me-2">Facebook
+                        </a>
+                        <a href="https://www.youtube.com/@vikhang24938" class="btn btn-light btn-lg me-3 mb-3">
+                            <img src="assets/image/icon/youtube_icon.png" alt="Youtube" width="24" class="me-2">Youtube
+                        </a>
+                        <a href="#" class="btn btn-light btn-lg me-3 mb-3">
+                            <img src="assets/image/icon/gmail.png" alt="Gmail" width="24" class="me-2">Gmail
+                        </a>
+                        <a href="https://github.com/vikhangdev/" class="btn btn-light btn-lg mb-3">
+                            <img src="assets/image/icon/github_icon.png" alt="GitHub" width="24" class="me-2">GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="bg-light text-dark py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <h3 class="fw-bold mb-3">
+                    <i class="bi bi-code-slash"></i> CodeMarket
+                </h3>
+                <p class="text-dark">
+                    Cung cấp source code chất lượng cao và dịch vụ phát triển phần mềm chuyên nghiệp.
+                </p>
+                <ul class="list-unstyled text-dark">
+                    <li><i class="bi bi-envelope"></i> vikhangdev1708@gmail.com</li>
+                    <li><i class="bi bi-phone"></i> 0394121584</li>
+                    <li><i class="bi bi-geo-alt"></i> Cần Thơ, Việt Nam</li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://zalo.me/0394121584" class="text-dark me-1">
+                        <img src="assets/image/icon/zalo_icon.png" alt="Zalo" style="width: 30px; height: 30px;">
+                    </a>
+                    <a href="https://www.facebook.com/khang.nguyen.253328?rdid=HxEckXZXfeH8rvgN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16jd3U7vSm%2F#" class="text-dark me-1">
+                        <img src="assets/image/icon/facebook_icon.png" alt="Facebook" style="width: 30px; height: 30px;">
+                    </a>
+                    <a href="https://www.youtube.com/@vikhang24938" class="text-dark me-1">
+                        <img src="assets/image/icon/youtube_icon.png" alt="Youtobe" style="width: 30px; height: 30px;">
+                    </a>
+                    <a href="https://github.com/vikhangdev" class="text-dark me-1">
+                        <img src="assets/image/icon/github_icon.png" alt="Github" style="width: 30px; height: 30px;">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="fw-bold text-dark">Sản Phẩm</h5>
+                <ul class="list-unstyled ">
+                    <li><a href="products.html?category=web" class="text-dark text-decoration-none">Website</a></li>
+                    <li><a href="products.html?category=mobile" class="text-dark text-decoration-none">Mobile App</a></li>
+                    <li><a href="products.html?category=desktop" class="text-dark text-decoration-none">Desktop App</a></li>
+                    <li><a href="products.html?category=game" class="text-dark text-decoration-none">Game</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="fw-bold text-dark">Dịch Vụ</h5>
+                <ul class="list-unstyled">
+                    <li><a href="services.html" class="text-dark text-decoration-none">Lập Trình Theo Yêu Cầu</a></li>
+                    <li><a href="services.html" class="text-dark text-decoration-none">Tư Vấn Kỹ Thuật</a></li>
+                    <li><a href="services.html" class="text-dark text-decoration-none">Bảo Trì & Nâng Cấp</a></li>
+                    <li><a href="services.html" class="text-dark text-decoration-none">Domain</a></li>
+                    <li><a href="services.html" class="text-dark text-decoration-none">Hosting</a></li>
+                    <li><a href="services.html" class="text-dark text-decoration-none">Hỗ Trợ Viết Báo Cáo</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="fw-bold text-dark">Chính Sách</h5>
+                <ul class="list-unstyled">  
+                    <li><a href="#" class="text-dark text-decoration-none">Chính Sách Hoàn Trả</a></li>
+                    <li><a href="#" class="text-dark text-decoration-none">Chính Sách Bảo Mật</a></li>
+                    <li><a href="#" class="text-dark text-decoration-none">Chính Sách Bàn Giao</a></li>
+                    <li><a href="#" class="text-dark text-decoration-none">Chính Sách Thanh Toán</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="fw-bold text-dark">Hỗ Trợ</h5>
+                <ul class="list-unstyled text-dark">
+                    <li><a href="faq.html" class="text-dark text-decoration-none">FAQ</a></li>
+                    <li><a href="knowledge.html" class="text-dark text-decoration-none">Kiến Thức</a></li>
+                    <li><a href="contact.html" class="text-dark text-decoration-none">Liên Hệ</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <hr class="my-4 border-white-50">
+        <div class="row align-items-center text-center">
+            <div class="col-md-12 ">
+                <p class="mb-0 text-dark">&copy; 2025 CodeMarket. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/contact.js"></script>
+</body>
+</html>

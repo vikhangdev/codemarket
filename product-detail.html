@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm - CodeMarket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-2" href="index.html">
+                <i class="bi bi-code-slash"></i> CodeMarket
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fs-5">
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="index.html">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="about.html">Giới Thiệu</a>
+                    </li>
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Sản Phẩm
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" style="min-width: 600px;">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <!-- bên trái -->
+                                    <div class="col-md-6 ">
+                                        <h6 class="dropdown-header">Website</h6>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=html">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" 
+                                                alt="HTML Icon" width="25" height="25" class="me-2">
+                                            HTML
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=php">                                         
+                                            <img src="https://cdn.simpleicons.org/php/777BB3" alt="PHP Icon" width="30" height="30" class="me-2">
+                                            <span class="me-2">PHP</span>
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=java">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" 
+                                                alt="Java Icon" width="30" height="30" class="me-2">
+                                            <span class="me-2">Java</span>
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=python">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" 
+                                                alt="Python Icon" width="30" height="30" class="me-2">
+                                            Python
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=csharp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" 
+                                                alt="C# Icon" width="30" height="30" class="me-2">
+                                            C#
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=javascript">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+                                                alt="JavaScript Icon" width="30" height="30" class="me-2">
+                                            JavaScript
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=typescript">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" 
+                                                alt="TypeScript Icon" width="30" height="30" class="me-2">
+                                            TypeScript
+                                        </a>
+
+                                        <hr class="dropdown-divider">
+                                        <h6 class="dropdown-header">Mobile App</h6>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=mobile&sub=android">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" 
+                                                alt="Android Icon" width="30" height="30" class="me-2">
+                                            Android
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=mobile&sub=ios">
+                                            <img src="https://cdn.simpleicons.org/apple/000000"  
+                                                alt="iOS Icon" width="30" height="30" class="me-2">
+                                            iOS
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=mobile&sub=reactnative">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" 
+                                                alt="React Native Icon" width="30" height="30" class="me-2">
+                                            React Native
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=mobile&sub=flutter">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" 
+                                                alt="Flutter Icon" width="30" height="30" class="me-2">
+                                            Flutter
+                                        </a>
+                                    </div>
+                                    <!-- bên phải -->
+                                    <div class="col-md-6">
+                                        <h6 class="dropdown-header">Desktop App</h6>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=java">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" 
+                                                alt="Java Icon" width="30" height="30" class="me-2">
+                                            <span class="me-2">Java</span>
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=csharp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" 
+                                                alt="C# Icon" width="30" height="30" class="me-2">
+                                            C#
+                                        </a>   
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=python">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" 
+                                                alt="Python Icon" width="30" height="30" class="me-2">
+                                            Python
+                                        </a>
+                                        <!-- cpp là c++ -->
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=cpp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                                                alt="C++ Icon" width="30" height="30" class="me-2">
+                                            C++
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=swift">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" 
+                                                alt="Swift Icon" width="30" height="30" class="me-2">
+                                            Swift
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=electron">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" 
+                                                alt="Electron Icon" width="30" height="30" class="me-2">
+                                            Electron
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=dart">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" 
+                                                alt="Dart Icon" width="30" height="30" class="me-2">
+                                            Dart
+                                        </a>
+                                        
+                                        <hr class="dropdown-divider">
+                                        <h6 class="dropdown-header">Game</h6>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=csharp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" 
+                                                alt="C# Icon" width="30" height="30" class="me-2">
+                                            C#
+                                        </a>  
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=cpp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                                                alt="C++ Icon" width="30" height="30" class="me-2">
+                                            C++
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=javascript">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+                                                alt="JavaScript Icon" width="30" height="30" class="me-2">
+                                            JavaScript
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=python">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" 
+                                                alt="Python Icon" width="30" height="30" class="me-2">
+                                            Python
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=java">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" 
+                                                alt="Java Icon" width="30" height="30" class="me-2">
+                                            <span class="me-2">Java</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12 text-center">
+                                        <a href="products.html" class="btn btn-primary btn-sm">Xem Tất Cả Sản Phẩm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="services.html">Dịch Vụ</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="knowledge.html">Kiến Thức</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Liên Hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <section class="py-3 bg-light" style="margin-top: 76px;">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Trang Chủ</a></li>
+                    <li class="breadcrumb-item"><a href="products.html">Sản Phẩm</a></li>
+                    <li class="breadcrumb-item active" aria-current="page" id="breadcrumbProduct">Chi Tiết</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Product Detail -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Product Images -->
+                <div class="col-lg-6 mb-4">
+                    <div class="product-gallery">
+                        <div class="main-image mb-3">
+                            <img id="mainImage" src="" alt="Product" class="img-fluid rounded-4 shadow">
+                        </div>
+                        <div class="thumbnail-images">
+                            <div class="row g-2" id="thumbnails">
+                                <!-- Thumbnails will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Info -->
+                <div class="col-lg-6">
+                    <div class="product-info">
+                         <span class="badge bg-primary" id="productCategory">Category</span>
+                         <h1 class="h2 fw-bold mb-3" id="productTitle">Product Title</h1>
+                        <div class="mb-3">
+                          
+                            <div class="rating mt-2">
+                                <div class="stars" id="productRating">
+                                    <!-- Stars will be loaded here -->
+                                </div>
+                                <span class="text-muted">(<span id="reviewCount">0</span> đánh giá)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="price-section mb-4">
+                            <div class="current-price">
+                                <span class="h3 text-primary fw-bold" id="currentPrice">0</span>
+                                <span class="text-decoration-line-through text-muted ms-2" id="originalPrice"></span>
+                            </div>
+                            <small class="text-success" id="discount"></small>
+                        </div>
+
+                        <div class="product-features mb-4">
+                            <h6 class="fw-bold">Tính Năng Chính:</h6>
+                            <ul class="list-unstyled" id="productFeatures">
+                                <!-- Features will be loaded here -->
+                            </ul>
+                        </div>
+
+                        <div class="product-tech mb-4">
+                            <h6 class="fw-bold">Công Nghệ:</h6>
+                            <div class="tech-tags" id="productTechnologies">
+                                <!-- Technologies will be loaded here -->
+                            </div>
+                        </div>
+
+                        <div class="purchase-section">
+                            <div class="d-flex gap-3 mb-3">
+                                <a href="https://zalo.me/0394121584" class="btn btn-primary btn-lg flex-fill">
+                                    <i class="bi bi-telephone-fill"></i> Liên Hệ
+                                </a>
+                                <a href="https://www.facebook.com/khang.nguyen.253328" class="btn btn-primary btn-lg flex-fill">
+                                    <i class="bi bi-chat-dots-fill"></i> Messager
+                                </a>
+                                <!-- <button class="btn btn-primary btn-lg flex-fill">
+                                    <i class="bi bi-cart-plus"></i> Mua Ngay
+                                </button> -->
+                                
+                                <button class="btn btn-outline-secondary">
+                                    <i class="bi bi-heart"></i>
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    <i class="bi bi-share"></i>
+                                </button>
+                            </div>
+                            
+                            <div class="purchase-info">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="bi bi-shield-check text-success me-2"></i>
+                                    <small>Đảm bảo chất lượng source code</small>
+                                </div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="bi bi-download text-success me-2"></i>
+                                    <small>Tải xuống ngay lập tức</small>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-headset text-success me-2"></i>
+                                    <small>Hỗ trợ kỹ thuật 24/7</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details Tabs -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <ul class="nav nav-tabs mb-4" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#description" type="button">
+                        Mô Tả
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#specifications" type="button">
+                        Thông Số
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#demo" type="button">
+                        Demo
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#reviews" type="button">
+                        Đánh Giá
+                    </button>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <!-- Description Tab -->
+                <div class="tab-pane fade show active" id="description">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="description-content" id="productDescription">
+                                <!-- Description will be loaded here -->
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h6 class="mb-0">Thông Tin Sản Phẩm</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="info-item">
+                                        <strong>Phiên bản:</strong>
+                                        <span id="productVersion">1.0.0</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <strong>Cập nhật:</strong>
+                                        <span id="lastUpdate">2024-01-01</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <strong>Kích thước:</strong>
+                                        <span id="fileSize">10 MB</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <strong>Tài liệu:</strong>
+                                        <span class="text-success">Đầy đủ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Specifications Tab -->
+                <div class="tab-pane fade" id="specifications">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <h5 class="fw-bold mb-3">Yêu Cầu Hệ Thống</h5>
+                            <div class="specifications-list" id="systemRequirements">
+                                <!-- System requirements will be loaded here -->
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <h5 class="fw-bold mb-3">Bao Gồm</h5>
+                            <div class="includes-list" id="productIncludes">
+                                <!-- Includes will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Demo Tab -->
+                <div class="tab-pane fade" id="demo">
+                    <div class="demo-section">
+                        <h6 class="fw-bold mb-3">Xem Trước Sản Phẩm</h6>
+                        <div class="demo-links" id="demoLinks">
+                            <!-- Demo links will be loaded here -->
+                        </div>
+                        <div class="demo-images mt-4" id="demoImages">
+                            <!-- Demo images will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reviews Tab -->
+                <div class="tab-pane fade" id="reviews">
+                    <div class="reviews-section">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="rating-summary text-center p-4 bg-white rounded">
+                                    <div class="average-rating">
+                                        <span class="display-4 fw-bold text-primary" id="averageRating">4.5</span>
+                                        <div class="stars mb-2" id="summaryStars"></div>
+                                        <p class="text-muted">Dựa trên <span id="totalReviews">0</span> đánh giá</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="reviews-list" id="reviewsList">
+                                    <!-- Reviews will be loaded here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="py-5">
+        <div class="container">
+            <h3 class="fw-bold mb-4">Sản Phẩm Liên Quan</h3>
+            <div class="row g-4" id="relatedProducts">
+                <!-- Related products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-dark py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <h3 class="fw-bold mb-3">
+                    <i class="bi bi-code-slash"></i> CodeMarket
+                </h3>
+                <p class="text-dark">
+                    Cung cấp source code chất lượng cao và dịch vụ phát triển phần mềm chuyên nghiệp.
+                </p>
+                <ul class="list-unstyled text-dark">
+                    <li><i class="bi bi-envelope"></i> vikhangdev1708@gmail.com</li>
+                    <li><i class="bi bi-phone"></i> 0394121584</li>
+                    <li><i class="bi bi-geo-alt"></i> Cần Thơ, Việt Nam</li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://zalo.me/0394121584" class="text-dark me-1">
+                        <img src="assets/image/icon/zalo_icon.png" alt="Zalo" style="width: 30px; height: 30px;">
+                    </a>
+                    <a href="https://www.facebook.com/khang.nguyen.253328?rdid=HxEckXZXfeH8rvgN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16jd3U7vSm%2F#" class="text-dark me-1">
+                        <img src="assets/image/icon/facebook_icon.png" alt="Facebook" style="width: 30px; height: 30px;">
+                    </a>
+                    <a href="https://www.youtube.com/@vikhang24938" class="text-dark me-1">
+                        <img src="assets/image/icon/youtube_icon.png" alt="Youtobe" style="width: 30px; height: 30px;">
+                    </a>
+                    <a href="https://github.com/vikhangdev" class="text-dark me-1">
+                        <img src="assets/image/icon/github_icon.png" alt="Github" style="width: 30px; height: 30px;">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="fw-bold text-dark">Sản Phẩm</h5>
+                <ul class="list-unstyled ">
+                    <li><a href="products.html?category=web" class="text-dark text-decoration-none">Website</a></li>
+                    <li><a href="products.html?category=mobile" class="text-dark text-decoration-none">Mobile App</a></li>
+                    <li><a href="products.html?category=desktop" class="text-dark text-decoration-none">Desktop App</a></li>
+                    <li><a href="products.html?category=game" class="text-dark text-decoration-none">Game</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="fw-bold text-dark">Dịch Vụ</h5>
+                <ul class="list-unstyled">
+                    <li><a href="services.html" class="text-dark text-decoration-none">Lập Trình Theo Yêu Cầu</a></li>
+                    <li><a href="services.html" class="text-dark text-decoration-none">Tư Vấn Kỹ Thuật</a></li>
+                    <li><a href="services.html" class="text-dark text-decoration-none">Bảo Trì & Nâng Cấp</a></li>
+                    <li><a href="services.html" class="text-dark text-decoration-none">Domain</a></li>
+                    <li><a href="services.html" class="text-dark text-decoration-none">Hosting</a></li>
+                    <li><a href="services.html" class="text-dark text-decoration-none">Hỗ Trợ Viết Báo Cáo</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="fw-bold text-dark">Chính Sách</h5>
+                <ul class="list-unstyled">  
+                    <li><a href="#" class="text-dark text-decoration-none">Chính Sách Hoàn Trả</a></li>
+                    <li><a href="#" class="text-dark text-decoration-none">Chính Sách Bảo Mật</a></li>
+                    <li><a href="#" class="text-dark text-decoration-none">Chính Sách Bàn Giao</a></li>
+                    <li><a href="#" class="text-dark text-decoration-none">Chính Sách Thanh Toán</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="fw-bold text-dark">Hỗ Trợ</h5>
+                <ul class="list-unstyled text-dark">
+                    <li><a href="faq.html" class="text-dark text-decoration-none">FAQ</a></li>
+                    <li><a href="knowledge.html" class="text-dark text-decoration-none">Kiến Thức</a></li>
+                    <li><a href="contact.html" class="text-dark text-decoration-none">Liên Hệ</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <hr class="my-4 border-white-50">
+        <div class="row align-items-center text-center">
+            <div class="col-md-12 ">
+                <p class="mb-0 text-dark">&copy; 2025 CodeMarket. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/product-detail.js"></script>
+</body>
+</html>
