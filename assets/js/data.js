@@ -55,10 +55,10 @@ const categoryTree = {
 
 // Products Data
 const products = [
-    // web từ 1 đến 50
+    // web từ 1 đến 100
     {
         id: 1,
-        title: "Website bán giày",
+        title: "Website bán giày - .NET",
         description: "website bán hàng truc tuyến",
         category: "web",
         subCategory: "csharp",
@@ -93,7 +93,8 @@ const products = [
             "Quản lý sản phẩm",
             "Quản lý đơn hàng",
         ],
-        demo: "assets/product/website/csharp/webbangiay_asp.net/webbangiay_asp.net.mp4",
+        //assets/product/website/csharp/webbangiay_asp.net/webbangiay_asp.net.mp4
+        demo: "",
         version: "2.1.0",
         lastUpdate: "2024-01-15",
         fileSize: "25 MB",
@@ -118,9 +119,7 @@ const products = [
             "/assets/product/website/php/webbansach/image7.png",
             "/assets/product/website/php/webbansach/image8.png",
             "/assets/product/website/php/webbansach/image9.png",
-            "/assets/product/website/php/webbansach/image10.png",
-            "/assets/product/website/php/webbansach/image11.png",
-            "/assets/product/website/php/webbansach/image12.png"
+            "/assets/product/website/php/webbansach/image10.png"
         ],
         rating: 4.8,
         reviews: 156,
@@ -133,7 +132,7 @@ const products = [
             "Quản lý đơn hàng",
             "Quản lý người dùng"
         ],
-        demo: "/assets/product/website/php_laravel/webbansach/webbansach_php_laravel.mp4",
+        demo: "/assets/product/website/php/webbansach/webbansach_php_laravel.mp4",
         version: "2.1.0",
         lastUpdate: "2025-08-08",
         fileSize: "25 MB",

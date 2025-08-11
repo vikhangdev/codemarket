@@ -208,17 +208,39 @@ function renderProductTabs(product) {
     }
     
     // Demo links
+    //<div class="col-md-6">
+    //   <a href="${product.demo || '#'}" target="_blank" class="btn btn-primary w-100">
+    //     <i class="bi bi-play-circle me-2"></i>Demo Trực Tuyến
+    //  </a>
+    //</div>
     const demoLinksElement = document.getElementById('demoLinks');
     if (demoLinksElement) {
         demoLinksElement.innerHTML = `
             <div class="row g-3">
                 <div class="col-md-6">
-                    <a href="${product.demo || '#'}" target="_blank" class="btn btn-primary w-100">
+                    <a href="#" 
+                    // nếu có video thì mở demo
+                        onclick="if('${product.demo}') 
+                                { 
+                                window.open('${product.demo}', '_blank'); 
+                                } 
+                                // không có video thì đến trang liên hệ để liên hệ
+                                else 
+                                { 
+                                    if(confirm('Dung lượng video demo quá lớn. Vui lòng liên hệ để được xem demo.'))
+                                    {
+                                        window.location.href='contact.html'; 
+                                    }
+                                    // không làm gì  
+                                } 
+                            return false;" 
+                        class="btn btn-primary w-100">
                         <i class="bi bi-play-circle me-2"></i>Demo Trực Tuyến
                     </a>
                 </div>
+
                 <div class="col-md-6">
-                    <a href="#" class="btn btn-outline-primary w-100">
+                    <a href="contact.html" class="btn btn-outline-primary w-100">
                         <i class="bi bi-download me-2"></i>Tải Demo
                     </a>
                 </div>
