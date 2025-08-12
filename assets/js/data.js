@@ -111,15 +111,15 @@ const products = [
         image: "/assets/product/website/php/webbansach/image1.png",
         images: [
             "/assets/product/website/php/webbansach/image1.png",
-            "/assets/product/website/php/webbansach/image2.png",
-            "/assets/product/website/php/webbansach/image3.png",
-            "/assets/product/website/php/webbansach/image4.png",
-            "/assets/product/website/php/webbansach/image5.png",
-            "/assets/product/website/php/webbansach/image6.png",
-            "/assets/product/website/php/webbansach/image7.png",
-            "/assets/product/website/php/webbansach/image8.png",
-            "/assets/product/website/php/webbansach/image9.png",
-            "/assets/product/website/php/webbansach/image10.png"
+            "/assets/product/website/php/webbansach/image2.png"
+            // "/assets/product/website/php/webbansach/image3.png",
+            // "/assets/product/website/php/webbansach/image4.png",
+            // "/assets/product/website/php/webbansach/image5.png",
+            // "/assets/product/website/php/webbansach/image6.png",
+            // "/assets/product/website/php/webbansach/image7.png",
+            // "/assets/product/website/php/webbansach/image8.png",
+            // "/assets/product/website/php/webbansach/image9.png",
+            // "/assets/product/website/php/webbansach/image10.png"
         ],
         rating: 4.8,
         reviews: 156,
