@@ -108,7 +108,7 @@ const products = [
         subCategory: "php",
         price: 500000,
         originalPrice: 350000,
-        image: "/blob/master/assets/product/website/php/webbansach/image1.png",
+        image: "blob/master/assets/product/website/php/webbansach/image1.png",
         images: [
             "assets/product/website/php/webbansach/image1.png",
             "assets/product/website/php/webbansach/image2.png"
