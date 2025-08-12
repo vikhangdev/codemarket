@@ -66,7 +66,7 @@ const products = [
         originalPrice: 350000,
         image: "assets/product/website/csharp/webbangiay_asp.net/image1.png",
         images: [
-            "assets/product/website/csharp/webbangiay_asp.net/image1.png",
+            //"assets/product/website/csharp/webbangiay_asp.net/image1.png",
             "assets/product/website/csharp/webbangiay_asp.net/image2.png",
             "assets/product/website/csharp/webbangiay_asp.net/image3.png",
             "assets/product/website/csharp/webbangiay_asp.net/image4.png",
