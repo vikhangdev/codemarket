@@ -112,14 +112,6 @@ const products = [
         images: [
             "/assets/product/website/php/webbansach/image1.png",
             "/assets/product/website/php/webbansach/image2.png"
-            //"/assets/product/website/php/webbansach/image3.png",
-            // "/assets/product/website/php/webbansach/image4.png",
-            // "/assets/product/website/php/webbansach/image5.png",
-            // "/assets/product/website/php/webbansach/image6.png",
-            // "/assets/product/website/php/webbansach/image7.png",
-            // "/assets/product/website/php/webbansach/image8.png",
-            // "/assets/product/website/php/webbansach/image9.png",
-            // "/assets/product/website/php/webbansach/image10.png"
         ],
         rating: 4.8,
         reviews: 156,
@@ -177,7 +169,10 @@ const products = [
         price: 1800000,
         originalPrice: 2500000,
         image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg",
-        images: ["https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg"],
+        images: [
+            "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg",
+            "/assets/product/website/php/webbansach/image1.png"
+        ],
         rating: 4.6,
         reviews: 89,
         technologies: ["PHP", "Laravel", "MySQL", "Bootstrap"],
