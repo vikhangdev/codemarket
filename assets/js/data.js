@@ -124,7 +124,7 @@ const products = [
             "Quản lý đơn hàng",
             "Quản lý người dùng"
         ],
-        demo: "https://youtu.be/xwY9oGEggoM",
+        demo: "https://www.youtube.com/watch?v=xwY9oGEggoM",
         version: "2.1.0",
         lastUpdate: "2025-08-08",
         fileSize: "25 MB",
