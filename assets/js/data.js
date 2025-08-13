@@ -108,10 +108,10 @@ const products = [
         subCategory: "php",
         price: 500000,
         originalPrice: 350000,
-        image: "assets/product/website/php/webbansach/image1.png",
+        image: "https://i.ibb.co/QjDzYZzr/image1.png",
         images: [
-            "assets/product/website/php/webbansach/image1.png",
-            "assets/product/website/php/webbansach/image2.png"
+            "https://i.ibb.co/QjDzYZzr/image1.png",
+            "https://i.ibb.co/qLk5yntL/image2.png"
         ],
         rating: 4.8,
         reviews: 156,
@@ -124,7 +124,7 @@ const products = [
             "Quản lý đơn hàng",
             "Quản lý người dùng"
         ],
-        demo: "/assets/product/website/php/webbansach/webbansach_php_laravel.mp4",
+        demo: "https://youtu.be/xwY9oGEggoM",
         version: "2.1.0",
         lastUpdate: "2025-08-08",
         fileSize: "25 MB",
@@ -142,7 +142,9 @@ const products = [
         image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg",
         images: [
             "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg",
-            "https://images.pexels.com/photos/326504/pexels-photo-326504.jpeg"
+            "https://images.pexels.com/photos/326504/pexels-photo-326504.jpeg",
+            "https://drive.google.com/uc?export=view&id=1LW8k7b8NfEH6JsgCTERO45zjNkZQyO78",
+            "https://i.ibb.co/j9pm8xfK/z6416119549073-b792a44586dc7fd3346feb0c08776cb1.jpg"
         ],
         rating: 4.5,
         reviews: 78,

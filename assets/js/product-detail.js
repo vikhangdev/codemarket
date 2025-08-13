@@ -253,7 +253,7 @@ function renderProductTabs(product) {
     if (demoImagesElement && product.images) {
         demoImagesElement.innerHTML = `
             <div class="row g-3">
-                ${product.images.slice(1).map(image => `
+                ${product.images.slice(0).map(image => `
                     <div class="col-md-4">
                         <img src="${image}" class="img-fluid rounded shadow-sm" alt="Demo">
                     </div>
