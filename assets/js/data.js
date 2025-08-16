@@ -93,7 +93,7 @@ const products = [
             "Quản lý sản phẩm",
             "Quản lý đơn hàng",
         ],
-        demo: "",
+        demo: "https://www.youtube.com/watch?v=l-zmiHSqXUk",
         version: "2.1.0",
         lastUpdate: "2024-01-15",
         fileSize: "25 MB",

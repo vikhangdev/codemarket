@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chính Sách Thanh Toán - CodeMarket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-2" href="index.html">
+                <i class="bi bi-code-slash"></i> CodeMarket
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fs-5">
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="index.html">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="about.html">Giới Thiệu</a>
+                    </li>
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Sản Phẩm
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" style="min-width: 600px;">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <!-- Dropdown content same as index.html -->
+                                    <!-- Copy phần dropdown menu từ index.html vào đây -->
+                                     <!-- bên trái -->
+                                    <div class="col-md-6 ">
+                                        <h6 class="dropdown-header">Website</h6>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=html">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" 
+                                                alt="HTML Icon" width="25" height="25" class="me-2">
+                                            HTML
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=php">                                         
+                                            <img src="https://cdn.simpleicons.org/php/777BB3" alt="PHP Icon" width="30" height="30" class="me-2">
+                                            <span class="me-2">PHP</span>
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=java">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" 
+                                                alt="Java Icon" width="30" height="30" class="me-2">
+                                            <span class="me-2">Java</span>
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=python">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" 
+                                                alt="Python Icon" width="30" height="30" class="me-2">
+                                            Python
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=csharp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" 
+                                                alt="C# Icon" width="30" height="30" class="me-2">
+                                            C#
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=javascript">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+                                                alt="JavaScript Icon" width="30" height="30" class="me-2">
+                                            JavaScript
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=web&sub=typescript">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" 
+                                                alt="TypeScript Icon" width="30" height="30" class="me-2">
+                                            TypeScript
+                                        </a>
+
+                                        <hr class="dropdown-divider">
+                                        <h6 class="dropdown-header">Mobile App</h6>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=mobile&sub=android">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" 
+                                                alt="Android Icon" width="30" height="30" class="me-2">
+                                            Android
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=mobile&sub=ios">
+                                            <img src="https://cdn.simpleicons.org/apple/000000"  
+                                                alt="iOS Icon" width="30" height="30" class="me-2">
+                                            iOS
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=mobile&sub=reactnative">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" 
+                                                alt="React Native Icon" width="30" height="30" class="me-2">
+                                            React Native
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=mobile&sub=flutter">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" 
+                                                alt="Flutter Icon" width="30" height="30" class="me-2">
+                                            Flutter
+                                        </a>
+                                    </div>
+                                    <!-- bên phải -->
+                                    <div class="col-md-6">
+                                        <h6 class="dropdown-header">Desktop App</h6>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=java">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" 
+                                                alt="Java Icon" width="30" height="30" class="me-2">
+                                            <span class="me-2">Java</span>
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=csharp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" 
+                                                alt="C# Icon" width="30" height="30" class="me-2">
+                                            C#
+                                        </a>   
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=python">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" 
+                                                alt="Python Icon" width="30" height="30" class="me-2">
+                                            Python
+                                        </a>
+                                        <!-- cpp là c++ -->
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=cpp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                                                alt="C++ Icon" width="30" height="30" class="me-2">
+                                            C++
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=swift">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" 
+                                                alt="Swift Icon" width="30" height="30" class="me-2">
+                                            Swift
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=electron">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" 
+                                                alt="Electron Icon" width="30" height="30" class="me-2">
+                                            Electron
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=desktop&sub=dart">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" 
+                                                alt="Dart Icon" width="30" height="30" class="me-2">
+                                            Dart
+                                        </a>
+                                        
+                                        <hr class="dropdown-divider">
+                                        <h6 class="dropdown-header">Game</h6>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=csharp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" 
+                                                alt="C# Icon" width="30" height="30" class="me-2">
+                                            C#
+                                        </a>  
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=cpp">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                                                alt="C++ Icon" width="30" height="30" class="me-2">
+                                            C++
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=javascript">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+                                                alt="JavaScript Icon" width="30" height="30" class="me-2">
+                                            JavaScript
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=python">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" 
+                                                alt="Python Icon" width="30" height="30" class="me-2">
+                                            Python
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="products.html?category=game&sub=java">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" 
+                                                alt="Java Icon" width="30" height="30" class="me-2">
+                                            <span class="me-2">Java</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12 text-center">
+                                        <a href="products.html" class="btn btn-primary btn-sm">Xem Tất Cả Sản Phẩm</a>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="services.html">Dịch Vụ</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="knowledge.html">Kiến Thức</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Liên Hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="policy-hero-section bg-primary text-white py-5" style="margin-top: 80px;">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto">
+                    <h1 class="display-4 fw-bold">Chính Sách Thanh Toán</h1>
+                    <p class="lead">Các phương thức thanh toán an toàn và linh hoạt tại CodeMarket</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Policy Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="policy-content">
+                        <div class="alert alert-success mb-5">
+                            <i class="bi bi-shield-lock me-2"></i>
+                            <strong>100% an toàn:</strong> Mọi giao dịch đều được bảo mật và mã hóa
+                        </div>
+
+                        <h2 class="fw-bold mb-4">1. Phương Thức Thanh Toán</h2>
+                        
+                        <div class="row g-4 mb-5">
+                            <!-- Chuyển khoản ngân hàng Vietcombank-->
+                            <div class="col-md-6">
+                                <div class="h-100 p-4 border rounded-3">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="bi bi-bank fs-1 text-primary me-3"></i>
+                                        <h4 class="mb-0">Chuyển khoản ngân hàng</h4>
+                                    </div>
+                                    <ul>
+                                        <li class="mb-2">Ưu đãi giảm 2% phí khi thanh toán trước</li>
+                                        <li class="mb-2">Xử lý trong 5-15 phút</li>
+                                        <li>Thông tin tài khoản:
+                                            <ul>
+                                                <li>Ngân hàng: <strong>Vietcombank</strong></li>
+                                                <li>Số TK: <strong></strong></li>
+                                                <li>Chủ TK: <strong>Nguyen Vi Khang</strong></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Chuyển khoản ngân hàng Agribank-->
+                            <div class="col-md-6">
+                                <div class="h-100 p-4 border rounded-3">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="bi bi-bank fs-1 text-primary me-3"></i>
+                                        <h4 class="mb-0">Chuyển khoản ngân hàng</h4>
+                                    </div>
+                                    <ul>
+                                        <li class="mb-2">Ưu đãi giảm 2% phí khi thanh toán trước</li>
+                                        <li class="mb-2">Xử lý trong 5-15 phút</li>
+                                        <li>Thông tin tài khoản:
+                                            <ul>
+                                                <li>Ngân hàng: <strong>Agribank</strong></li>
+                                                <li>Số TK: <strong>7602205139010</strong></li>
+                                                <li>Chủ TK: <strong>Nguyen Vi Khang</strong></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Thẻ quốc tế 
+                            <div class="col-md-6">
+                                <div class="h-100 p-4 border rounded-3">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="bi bi-credit-card fs-1 text-primary me-3"></i>
+                                        <h4 class="mb-0">Thẻ quốc tế</h4>
+                                    </div>
+                                    <div class="mb-3">
+                                        <img src="assets/image/icon/visa_mastercard.png" alt="Visa/Mastercard" class="img-fluid" style="height: 30px;">
+                                    </div>
+                                    <ul>
+                                        <li class="mb-2">Chấp nhận Visa, Mastercard</li>
+                                        <li class="mb-2">Xử lý trong 3-5 phút</li>
+                                        <li>Phí thanh toán: 1.5%</li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            
+                            <!-- Ví điện tử -->
+                            <div class="col-md-6">
+                                <div class="h-100 p-4 border rounded-3">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="bi bi-wallet2 fs-1 text-primary me-3"></i>
+                                        <h4 class="mb-0">Ví điện tử</h4>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4 text-center mb-3">
+                                            <img src="assets/image/icon/momo_icon.png" alt="Momo" class="img-fluid" style="height: 40px;">
+                                            <!-- <div class="small">0394.121.584</div> -->
+                                        </div>
+                                        <div class="col-4 text-center mb-3">
+                                            <img src="assets/image/icon/zalopay_icon.png" alt="ZaloPay" class="img-fluid" style="height: 40px;">
+                                        </div>
+                                        <div class="col-4 text-center mb-3">
+                                            <img src="assets/image/icon/vnpay_icon.jpg" alt="VNPay" class="img-fluid" style="height: 40px;">
+                                        </div>
+                                    </div>
+                                    <ul>
+                                        <li class="mb-2">Xử lý ngay lập tức</li>
+                                        <li>Nhận source code qua zalo, facebook, github hoặc gmail</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            <!-- Thanh toán trực tiếp -->
+                            <div class="col-md-6">
+                                <div class="h-100 p-4 border rounded-3">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="bi bi-cash fs-1 text-primary me-3"></i>
+                                        <h4 class="mb-0">Thanh toán trực tiếp</h4>
+                                    </div>
+                                    <ul>
+                                        <li class="mb-2">Áp dụng cho dự án lớn</li>
+                                        <li class="mb-2">Thanh toán theo tiến độ:
+                                            <ul>
+                                                <li>30% khi ký hợp đồng</li>
+                                                <li>40% khi bàn giao giai đoạn 1</li>
+                                                <li>30% khi hoàn thành</li>
+                                            </ul>
+                                        </li>
+                                        <li>Nhận hóa đơn VAT khi yêu cầu</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="fw-bold mb-4">2. Quy Trình Thanh Toán</h2>
+                        <div class="steps mb-5">
+                            <div class="step row mb-4 align-items-center">
+                                <div class="col-md-1">
+                                    <div class="step-number bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">1</div>
+                                </div>
+                                <div class="col-md-11 ps-4">
+                                    <h5 class="fw-bold">1.Chọn phương thức thanh toán</h5>
+                                    <p class="mb-0">Lựa chọn hình thức phù hợp trong quá trình đặt hàng</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step row mb-4 align-items-center">
+                                <div class="col-md-1">
+                                    <div class="step-number bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">2</div>
+                                </div>
+                                <div class="col-md-11 ps-4">
+                                    <h5 class="fw-bold">2.Xác nhận thanh toán</h5>
+                                    <p class="mb-0">Nhân viên sẽ gửi thông tin hướng dẫn thanh toán chi tiết</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step row mb-4 align-items-center">
+                                <div class="col-md-1">
+                                    <div class="step-number bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">3</div>
+                                </div>
+                                <div class="col-md-11 ps-4">
+                                    <h5 class="fw-bold">3.Hoàn tất giao dịch</h5>
+                                    <p class="mb-0">Nhân viên sẽ gửi tin nhắn thông báo xác nhận khi thanh toán thành công</p>
+                                </div>
+                            </div>
+
+                            <div class="step row align-items-center">
+                                <div class="col-md-1">
+                                    <div class="step-number bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">4</div>
+                                </div>
+                                <div class="col-md-11 ps-4">
+                                    <h5 class="fw-bold">4.Nhận sản phẩm</h5>
+                                    <p class="mb-0">Gửi qua zalo, facebook, github hay truy cập link bàn giao ngay sau khi xác nhận thanh toán</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="fw-bold mb-4">3. Chính Sách Hóa Đơn</h2>
+                        <div class="card mb-5 border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h5><i class="bi bi-receipt text-primary me-2"></i>Hóa đơn điện tử</h5>
+                                        <ul class="mt-3">
+                                            <li class="mb-2">Tự động gửi qua email sau thanh toán</li>
+                                            <li>Có giá trị pháp lý như hóa đơn giấy</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5><i class="bi bi-building text-primary me-2"></i>Hóa đơn VAT</h5>
+                                        <ul class="mt-3">
+                                            <li class="mb-2">Cung cấp khi có yêu cầu</li>
+                                            <li>Phát hành trong vòng 3 ngày làm việc</li>
+                                            <li>Yêu cầu thông tin công ty để xuất hóa đơn</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="fw-bold mb-4">4. Câu Hỏi Thường Gặp</h2>
+                        <div class="accordion mb-5" id="paymentFAQ">
+                            <div class="accordion-item mb-3 border-0 shadow-sm">
+                                <h3 class="accordion-header" id="paymentHeadingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#paymentCollapseOne">
+                                        <i class="bi bi-credit-card-2-front text-primary me-2"></i>Tôi có thể đổi phương thức thanh toán sau khi đã đặt hàng không?
+                                    </button>
+                                </h3>
+                                <div id="paymentCollapseOne" class="accordion-collapse collapse" data-bs-parent="#paymentFAQ">
+                                    <div class="accordion-body">
+                                        Có, bạn có thể liên hệ hỗ trợ qua Zalo (0394.121.584) hoặc email (vikhangdev1708@gmail.com) trong vòng 1 giờ sau khi đặt hàng để yêu cầu đổi phương thức thanh toán.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item mb-3 border-0 shadow-sm">
+                                <h3 class="accordion-header" id="paymentHeadingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#paymentCollapseTwo">
+                                        <i class="bi bi-clock-history text-primary me-2"></i>Mất bao lâu để hệ thống xác nhận thanh toán của tôi?
+                                    </button>
+                                </h3>
+                                <div id="paymentCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#paymentFAQ">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><strong>Ví điện tử:</strong> Ngay lập tức (tự động)</li>
+                                            <li><strong>Thẻ quốc tế:</strong> 3-5 phút (tự động)</li>
+                                            <li><strong>Chuyển khoản ngân hàng:</strong> 5-15 phút (kiểm tra thủ công)</li>
+                                            <li>Nếu quá 30 phút chưa nhận được xác nhận, vui lòng liên hệ hỗ trợ</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item border-0 shadow-sm">
+                                <h3 class="accordion-header" id="paymentHeadingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#paymentCollapseThree">
+                                        <i class="bi bi-shield-check text-primary me-2"></i>Thông tin thẻ của tôi có được bảo mật không?
+                                    </button>
+                                </h3>
+                                <div id="paymentCollapseThree" class="accordion-collapse collapse" data-bs-parent="#paymentFAQ">
+                                    <div class="accordion-body">
+                                        CodeMarket <strong>không lưu trữ</strong> bất kỳ thông tin thẻ nào của bạn. Mọi giao dịch đều được xử lý qua cổng thanh toán đối tác (OnePay, VNPay) với tiêu chuẩn bảo mật PCI DSS cấp cao nhất.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-box bg-light p-4 rounded-3 text-center">
+                            <h4 class="fw-bold mb-3">Hỗ Trợ Thanh Toán 24/7</h4>
+                            <p class="mb-4">Gặp sự cố khi thanh toán? Chúng tôi luôn sẵn sàng hỗ trợ!</p>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <a href="contact.html" class="btn btn-primary me-2 mb-2">
+                                    <i class="bi bi-envelope"></i> Email
+                                </a>
+                                <a href="tel:0394121584" class="btn btn-success me-2 mb-2">
+                                    <i class="bi bi-telephone"></i> Gọi ngay
+                                </a>
+                                <a href="https://zalo.me/0394121584" class="btn btn-info text-white mb-2">
+                                    <i class="bi bi-chat-dots"></i> Zalo Chat
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h3 class="fw-bold mb-3">
+                        <i class="bi bi-code-slash"></i> CodeMarket
+                    </h3>
+                    <p class="text-dark">
+                        Cung cấp source code chất lượng cao và dịch vụ phát triển phần mềm chuyên nghiệp.
+                    </p>
+                    <ul class="list-unstyled text-dark">
+                        <li><i class="bi bi-envelope"></i> vikhangdev1708@gmail.com</li>
+                        <li><i class="bi bi-phone"></i> 0394121584</li>
+                        <li><i class="bi bi-geo-alt"></i> Cần Thơ, Việt Nam</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://zalo.me/0394121584" class="text-dark me-1">
+                            <img src="assets/image/icon/zalo_icon.png" alt="Zalo" style="width: 30px; height: 30px;">
+                        </a>
+                        <a href="https://www.facebook.com/khang.nguyen.253328?rdid=HxEckXZXfeH8rvgN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16jd3U7vSm%2F#" class="text-dark me-1">
+                            <img src="assets/image/icon/facebook_icon.png" alt="Facebook" style="width: 30px; height: 30px;">
+                        </a>
+                        <a href="https://www.youtube.com/@vikhang24938" class="text-dark me-1">
+                            <img src="assets/image/icon/youtube_icon.png" alt="Youtobe" style="width: 30px; height: 30px;">
+                        </a>
+                        <a href="https://github.com/vikhangdev" class="text-dark me-1">
+                            <img src="assets/image/icon/github_icon.png" alt="Github" style="width: 30px; height: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="fw-bold text-dark">Sản Phẩm</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="products.html?category=web" class="text-dark text-decoration-none">Website</a></li>
+                        <li><a href="products.html?category=mobile" class="text-dark text-decoration-none">Mobile App</a></li>
+                        <li><a href="products.html?category=desktop" class="text-dark text-decoration-none">Desktop App</a></li>
+                        <li><a href="products.html?category=game" class="text-dark text-decoration-none">Game</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="fw-bold text-dark">Dịch Vụ</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="services.html" class="text-dark text-decoration-none">Lập Trình Theo Yêu Cầu</a></li>
+                        <li><a href="services.html" class="text-dark text-decoration-none">Tư Vấn Kỹ Thuật</a></li>
+                        <li><a href="services.html" class="text-dark text-decoration-none">Bảo Trì & Nâng Cấp</a></li>
+                        <li><a href="services.html" class="text-dark text-decoration-none">Domain</a></li>
+                        <li><a href="services.html" class="text-dark text-decoration-none">Hosting</a></li>
+                        <li><a href="services.html" class="text-dark text-decoration-none">Hỗ Trợ Viết Báo Cáo</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="fw-bold text-dark">Chính Sách</h5>
+                    <ul class="list-unstyled">  
+                        <li><a href="refund-policy.html" class="text-dark text-decoration-none">Chính Sách Hoàn Trả</a></li>
+                        <li><a href="privacy-policy.html" class="text-dark text-decoration-none">Chính Sách Bảo Mật</a></li>
+                        <li><a href="delivery-policy.html" class="text-dark text-decoration-none">Chính Sách Bàn Giao</a></li>
+                        <li><a href="payment-policy.html" class="text-dark text-decoration-none">Chính Sách Thanh Toán</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="fw-bold text-dark">Hỗ Trợ</h5>
+                    <ul class="list-unstyled text-dark">
+                        <li><a href="faq.html" class="text-dark text-decoration-none">FAQ</a></li>
+                        <li><a href="knowledge.html" class="text-dark text-decoration-none">Kiến Thức</a></li>
+                        <li><a href="contact.html" class="text-dark text-decoration-none">Liên Hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="my-4 border-white-50">
+            <div class="row align-items-center text-center">
+                <div class="col-md-12">
+                    <p class="mb-0 text-dark">&copy; 2025 CodeMarket. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
