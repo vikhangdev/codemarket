@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giới Thiệu - CodeMarket</title>
+    <title>Tư Vấn Kỹ Thuật - CodeMarket</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top py-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top py-3">
         <div class="container">
             <a class="navbar-brand fw-bold fs-2" href="index.html">
                 <i class="bi bi-code-slash"></i> CodeMarket
@@ -24,14 +24,15 @@
                         <a class="nav-link" href="index.html">Trang Chủ</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link active" href="about.html">Giới Thiệu</a>
+                        <a class="nav-link" href="about.html">Giới Thiệu</a>
                     </li>
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             Sản Phẩm
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" style="min-width: 600px;">
-                            <div class="container-fluid">
+                            <!-- Dropdown content same as index.html -->
+                             <div class="container-fluid">
                                 <div class="row">
                                     <!-- bên trái -->
                                     <div class="col-md-6 ">
@@ -172,7 +173,7 @@
                         </ul>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link" href="services.html">Dịch Vụ</a>
+                        <a class="nav-link active" href="services.html">Dịch Vụ</a>
                     </li>
                     <li class="nav-item me-2">
                         <a class="nav-link" href="knowledge.html">Kiến Thức</a>
@@ -189,146 +190,166 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="py-5 bg-primary text-white" style="margin-top: 76px;">
+    <section class="bg-primary text-white py-5" style="margin-top: 80px;">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-8 mx-auto">
-                    <h1 class="display-4 fw-bold">Về CodeMarket</h1>
-                    <p class="lead">Đối tác tin cậy trong hành trình phát triển phần mềm của bạn</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Content -->
-    <section class="py-5">
-        <div class="container">
-            <div class="row align-items-center mb-5">
-                <div class="col-lg-6">
-                    <h2 class="display-5 fw-bold">Câu Chuyện Của Chúng Tôi</h2>
-                    <p class="lead text-muted mb-4">
-                        CodeMarket ra đời từ ý tưởng tạo ra một nền tảng chia sẻ và mua bán source code chất lượng cao, 
-                        giúp các lập trình viên và doanh nghiệp tiết kiệm thời gian và chi phí trong việc phát triển phần mềm.
-                    </p>
-                    <p>
-                        Với đội ngũ chuyên gia có nhiều năm kinh nghiệm trong ngành phần mềm, chúng tôi hiểu rõ những thách thức 
-                        mà các nhà phát triển gặp phải và cam kết mang đến những giải pháp tốt nhất.
-                    </p>
-                    <p>
-                        Từ những dự án nhỏ đến các hệ thống enterprise, CodeMarket đã đồng hành cùng hàng nghìn khách hàng 
-                        trong việc hiện thực hóa ý tưởng của họ.
-                    </p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg" 
-                         alt="Team" class="img-fluid rounded-4 shadow">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Mission & Vision -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mb-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="feature-icon me-3">
-                                    <i class="bi bi-bullseye text-primary"></i>
-                                </div>
-                                <h3 class="mb-0">Sứ Mệnh</h3>
-                            </div>
-                            <p class="text-muted">
-                                Tạo ra một hệ sinh thái phần mềm bền vững, nơi mà mọi lập trình viên có thể chia sẻ, 
-                                học hỏi và phát triển cùng nhau. Chúng tôi cam kết cung cấp những source code chất lượng cao, 
-                                dịch vụ hỗ trợ tận tình và môi trường làm việc chuyên nghiệp.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="feature-icon me-3">
-                                    <i class="bi bi-eye text-primary"></i>
-                                </div>
-                                <h3 class="mb-0">Tầm Nhìn</h3>
-                            </div>
-                            <p class="text-muted">
-                                Trở thành nền tảng source code hàng đầu tại Việt Nam và khu vực Đông Nam Á. 
-                                Chúng tôi hướng tới mục tiêu kết nối cộng đồng lập trình viên, thúc đẩy sự sáng tạo 
-                                và góp phần vào sự phát triển của ngành công nghệ thông tin.
-                            </p>
-                        </div>
+                    <h1 class="display-4 fw-bold">Tư Vấn Kỹ Thuật</h1>
+                    <p class="lead mb-4">Giải pháp công nghệ tối ưu cho doanh nghiệp của bạn với đội ngũ chuyên gia giàu kinh nghiệm</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a href="#contact-form" class="btn btn-light btn-lg">
+                            <i class="bi bi-headset"></i> Liên Hệ Ngay
+                        </a>
+                        <a href="#services" class="btn btn-outline-light btn-lg">
+                            <i class="bi bi-list-check"></i> Dịch Vụ
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Core Values -->
-    <section class="py-5">
+    <!-- Services -->
+    <section id="services" class="py-5 bg-light">
         <div class="container">
-            <div class="row text-center mb-5">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="display-5 fw-bold">Giá Trị Cốt Lõi</h2>
-                    <p class="lead text-muted">Những nguyên tắc định hướng mọi hoạt động của chúng tôi</p>
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <h2 class="display-5 fw-bold mb-3">Dịch Vụ Tư Vấn</h2>
+                    <p class="lead">Chúng tôi cung cấp các giải pháp tư vấn toàn diện cho mọi nhu cầu công nghệ</p>
                 </div>
             </div>
+            
             <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
-                    <div class="text-center p-4">
-                        <div class="feature-icon mb-3">
-                            <i class="bi bi-diamond text-primary"></i>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-3 mb-3 mx-auto" style="width: 60px; height: 60px;">
+                                <i class="bi bi-diagram-3 fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold">Kiến Trúc Hệ Thống</h4>
+                            <p class="mb-0">Thiết kế kiến trúc phần mềm và hệ thống tối ưu, đáp ứng nhu cầu hiện tại và mở rộng trong tương lai</p>
                         </div>
-                        <h5>Chất Lượng</h5>
-                        <p class="text-muted small">
-                            Cam kết cung cấp source code với chất lượng cao nhất, được kiểm tra kỹ lưỡng
-                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="text-center p-4">
-                        <div class="feature-icon mb-3">
-                            <i class="bi bi-people text-primary"></i>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-3 mb-3 mx-auto" style="width: 60px; height: 60px;">
+                                <i class="bi bi-shield-check fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold">Bảo Mật & An Toàn</h4>
+                            <p class="mb-0">Đánh giá và đề xuất giải pháp bảo mật toàn diện cho hệ thống công nghệ thông tin</p>
                         </div>
-                        <h5>Cộng Đồng</h5>
-                        <p class="text-muted small">
-                            Xây dựng cộng đồng lập trình viên mạnh mẽ, hỗ trợ lẫn nhau phát triển
-                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="text-center p-4">
-                        <div class="feature-icon mb-3">
-                            <i class="bi bi-lightbulb text-primary"></i>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-3 mb-3 mx-auto" style="width: 60px; height: 60px;">
+                                <i class="bi bi-cloud-arrow-up fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold">Điện Toán Đám Mây</h4>
+                            <p class="mb-0">Tư vấn lộ trình chuyển đổi và tối ưu hệ thống lên môi trường điện toán đám mây</p>
                         </div>
-                        <h5>Sáng Tạo</h5>
-                        <p class="text-muted small">
-                            Luôn tìm kiếm và áp dụng những công nghệ mới nhất, xu hướng hiện đại
-                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="text-center p-4">
-                        <div class="feature-icon mb-3">
-                            <i class="bi bi-heart text-primary"></i>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-3 mb-3 mx-auto" style="width: 60px; height: 60px;">
+                                <i class="bi bi-database fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold">Quản Trị CSDL</h4>
+                            <p class="mb-0">Thiết kế và tối ưu hệ thống cơ sở dữ liệu đảm bảo hiệu năng và an toàn dữ liệu</p>
                         </div>
-                        <h5>Tận Tâm</h5>
-                        <p class="text-muted small">
-                            Phục vụ khách hàng với sự tận tâm, đặt lợi ích khách hàng lên hàng đầu
-                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-3 mb-3 mx-auto" style="width: 60px; height: 60px;">
+                                <i class="bi bi-git fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold">DevOps</h4>
+                            <p class="mb-0">Xây dựng quy trình phát triển và triển khai phần mềm tự động, liên tục</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-3 mb-3 mx-auto" style="width: 60px; height: 60px;">
+                                <i class="bi bi-code-square fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold">Review Code</h4>
+                            <p class="mb-0">Đánh giá chất lượng mã nguồn và đề xuất cải thiện chất lượng phần mềm</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Team -->
+    <!-- Process -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <h2 class="display-5 fw-bold mb-3">Quy Trình Tư Vấn</h2>
+                    <p class="lead">4 bước đơn giản để nhận tư vấn chuyên nghiệp</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="text-center p-3">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                            <span class="fs-4 fw-bold">1</span>
+                        </div>
+                        <h5 class="fw-bold">Tiếp Nhận Yêu Cầu</h5>
+                        <p class="mb-0">Khách hàng gửi thông tin yêu cầu tư vấn qua form hoặc liên hệ trực tiếp</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="text-center p-3">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                            <span class="fs-4 fw-bold">2</span>
+                        </div>
+                        <h5 class="fw-bold">Phân Tích Đánh Giá</h5>
+                        <p class="mb-0">Đội ngũ chuyên gia phân tích và đánh giá hiện trạng hệ thống</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="text-center p-3">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                            <span class="fs-4 fw-bold">3</span>
+                        </div>
+                        <h5 class="fw-bold">Đề Xuất Giải Pháp</h5>
+                        <p class="mb-0">Đưa ra các phương án tối ưu với ưu nhược điểm và chi phí dự kiến</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="text-center p-3">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                            <span class="fs-4 fw-bold">4</span>
+                        </div>
+                        <h5 class="fw-bold">Triển Khai & Hỗ Trợ</h5>
+                        <p class="mb-0">Hỗ trợ triển khai giải pháp và theo dõi sau tư vấn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Experts -->
     <section class="py-5 bg-light">
         <div class="container">
             <div class="row text-center mb-5">
@@ -476,22 +497,59 @@
         </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="py-5 bg-primary text-white">
+    <!-- Contact Form -->
+    <section id="contact-form" class="py-5">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="display-5 fw-bold mb-4">Sẵn Sàng Bắt Đầu?</h2>
-                    <p class="lead mb-4">
-                        Khám phá hàng nghìn source code chất lượng cao hoặc để chúng tôi hỗ trợ dự án của bạn
-                    </p>
-                    <div class="d-flex gap-3 justify-content-center">
-                        <a href="products.html" class="btn btn-light btn-lg">
-                            <i class="bi bi-search"></i> Khám Phá Sản Phẩm
-                        </a>
-                        <a href="contact.html" class="btn btn-outline-light btn-lg">
-                            <i class="bi bi-envelope"></i> Liên Hệ Tư Vấn
-                        </a>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-5">
+                            <h2 class="text-center mb-4">Yêu Cầu Tư Vấn</h2>
+                            <p class="text-center mb-5">Điền thông tin để nhận tư vấn từ chuyên gia</p>
+                            
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Họ tên <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="company" class="form-label">Công ty</label>
+                                        <input type="text" class="form-control" id="company">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="phone" class="form-label">Số điện thoại <span class="text-danger">*</span></label>
+                                        <input type="tel" class="form-control" id="phone" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="service" class="form-label">Dịch vụ quan tâm <span class="text-danger">*</span></label>
+                                        <select class="form-select" id="service" required>
+                                            <option selected disabled value="">Chọn dịch vụ tư vấn</option>
+                                            <option>Kiến trúc hệ thống</option>
+                                            <option>Bảo mật & An toàn</option>
+                                            <option>Điện toán đám mây</option>
+                                            <option>Quản trị CSDL</option>
+                                            <option>DevOps</option>
+                                            <option>Review Code</option>
+                                            <option>Khác</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="description" class="form-label">Mô tả yêu cầu <span class="text-danger">*</span></label>
+                                        <textarea class="form-control" id="description" rows="5" required></textarea>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                                            <i class="bi bi-send"></i> Gửi Yêu Cầu
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -499,84 +557,84 @@
     </section>
 
     <!-- Footer -->
-     <footer class="bg-light text-dark py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 mb-4">
-                <h3 class="fw-bold mb-3">
-                    <i class="bi bi-code-slash"></i> CodeMarket
-                </h3>
-                <p class="text-dark">
-                    Cung cấp source code chất lượng cao và dịch vụ phát triển phần mềm chuyên nghiệp.
-                </p>
-                <ul class="list-unstyled text-dark">
-                    <li><i class="bi bi-envelope"></i> vikhangdev1708@gmail.com</li>
-                    <li><i class="bi bi-phone"></i> 0394121584</li>
-                    <li><i class="bi bi-geo-alt"></i> Cần Thơ, Việt Nam</li>
-                </ul>
-                <div class="social-links">
-                    <a href="https://zalo.me/0394121584" class="text-dark me-1">
-                        <img src="assets/image/icon/zalo_icon.png" alt="Zalo" style="width: 30px; height: 30px;">
-                    </a>
-                    <a href="https://www.facebook.com/khang.nguyen.253328?rdid=HxEckXZXfeH8rvgN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16jd3U7vSm%2F#" class="text-dark me-1">
-                        <img src="assets/image/icon/facebook_icon.png" alt="Facebook" style="width: 30px; height: 30px;">
-                    </a>
-                    <a href="https://www.youtube.com/@vikhang24938" class="text-dark me-1">
-                        <img src="assets/image/icon/youtube_icon.png" alt="Youtobe" style="width: 30px; height: 30px;">
-                    </a>
-                    <a href="https://github.com/vikhangdev" class="text-dark me-1">
-                        <img src="assets/image/icon/github_icon.png" alt="Github" style="width: 30px; height: 30px;">
-                    </a>
+    <footer class="bg-light text-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h3 class="fw-bold mb-3">
+                        <i class="bi bi-code-slash"></i> CodeMarket
+                    </h3>
+                    <p class="text-dark">
+                        Cung cấp source code chất lượng cao và dịch vụ phát triển phần mềm chuyên nghiệp.
+                    </p>
+                    <ul class="list-unstyled text-dark">
+                        <li><i class="bi bi-envelope"></i> vikhangdev1708@gmail.com</li>
+                        <li><i class="bi bi-phone"></i> 0394121584</li>
+                        <li><i class="bi bi-geo-alt"></i> Cần Thơ, Việt Nam</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://zalo.me/0394121584" class="text-dark me-1">
+                            <img src="assets/image/icon/zalo_icon.png" alt="Zalo" style="width: 30px; height: 30px;">
+                        </a>
+                        <a href="https://www.facebook.com/khang.nguyen.253328?rdid=HxEckXZXfeH8rvgN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16jd3U7vSm%2F#" class="text-dark me-1">
+                            <img src="assets/image/icon/facebook_icon.png" alt="Facebook" style="width: 30px; height: 30px;">
+                        </a>
+                        <a href="https://www.youtube.com/@vikhang24938" class="text-dark me-1">
+                            <img src="assets/image/icon/youtube_icon.png" alt="Youtobe" style="width: 30px; height: 30px;">
+                        </a>
+                        <a href="https://github.com/vikhangdev" class="text-dark me-1">
+                            <img src="assets/image/icon/github_icon.png" alt="Github" style="width: 30px; height: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="fw-bold text-dark">Sản Phẩm</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="products.html?category=web" class="text-dark text-decoration-none">Website</a></li>
+                        <li><a href="products.html?category=mobile" class="text-dark text-decoration-none">Mobile App</a></li>
+                        <li><a href="products.html?category=desktop" class="text-dark text-decoration-none">Desktop App</a></li>
+                        <li><a href="products.html?category=game" class="text-dark text-decoration-none">Game</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="fw-bold text-dark">Dịch Vụ</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="custom-development.html" class="text-dark text-decoration-none">Lập Trình Theo Yêu Cầu</a></li>
+                        <li><a href="technical-consulting.html" class="text-dark text-decoration-none">Tư Vấn Kỹ Thuật</a></li>
+                        <li><a href="maintenance.html" class="text-dark text-decoration-none">Bảo Trì & Nâng Cấp</a></li>
+                        <li><a href="domain.html" class="text-dark text-decoration-none">Domain</a></li>
+                        <li><a href="hosting.html" class="text-dark text-decoration-none">Hosting</a></li>
+                        <li><a href="report.html" class="text-dark text-decoration-none">Hỗ Trợ Viết Báo Cáo</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="fw-bold text-dark">Chính Sách</h5>
+                    <ul class="list-unstyled">  
+                        <li><a href="refund-policy.html" class="text-dark text-decoration-none">Chính Sách Hoàn Trả</a></li>
+                        <li><a href="privacy-policy.html" class="text-dark text-decoration-none">Chính Sách Bảo Mật</a></li>
+                        <li><a href="delivery-policy.html" class="text-dark text-decoration-none">Chính Sách Bàn Giao</a></li>
+                        <li><a href="payment-policy.html" class="text-dark text-decoration-none">Chính Sách Thanh Toán</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="fw-bold text-dark">Hỗ Trợ</h5>
+                    <ul class="list-unstyled text-dark">
+                        <li><a href="faq.html" class="text-dark text-decoration-none">FAQ</a></li>
+                        <li><a href="knowledge.html" class="text-dark text-decoration-none">Kiến Thức</a></li>
+                        <li><a href="contact.html" class="text-dark text-decoration-none">Liên Hệ</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-6 mb-4">
-                <h5 class="fw-bold text-dark">Sản Phẩm</h5>
-                <ul class="list-unstyled ">
-                    <li><a href="products.html?category=web" class="text-dark text-decoration-none">Website</a></li>
-                    <li><a href="products.html?category=mobile" class="text-dark text-decoration-none">Mobile App</a></li>
-                    <li><a href="products.html?category=desktop" class="text-dark text-decoration-none">Desktop App</a></li>
-                    <li><a href="products.html?category=game" class="text-dark text-decoration-none">Game</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-2 col-md-6 mb-4">
-                <h5 class="fw-bold text-dark">Dịch Vụ</h5>
-                <ul class="list-unstyled">
-                    <li><a href="custom-development.html" class="text-dark text-decoration-none">Lập Trình Theo Yêu Cầu</a></li>
-                    <li><a href="technical-consulting.html" class="text-dark text-decoration-none">Tư Vấn Kỹ Thuật</a></li>
-                    <li><a href="maintenance.html" class="text-dark text-decoration-none">Bảo Trì & Nâng Cấp</a></li>
-                    <li><a href="domain.html" class="text-dark text-decoration-none">Domain</a></li>
-                    <li><a href="hosting.html" class="text-dark text-decoration-none">Hosting</a></li>
-                    <li><a href="report.html" class="text-dark text-decoration-none">Hỗ Trợ Viết Báo Cáo</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-2 col-md-6 mb-4">
-                <h5 class="fw-bold text-dark">Chính Sách</h5>
-                <ul class="list-unstyled">  
-                    <li><a href="refund-policy.html" class="text-dark text-decoration-none">Chính Sách Hoàn Trả</a></li>
-                    <li><a href="privacy-policy.html" class="text-dark text-decoration-none">Chính Sách Bảo Mật</a></li>
-                    <li><a href="delivery-policy.html" class="text-dark text-decoration-none">Chính Sách Bàn Giao</a></li>
-                    <li><a href="payment-policy.html" class="text-dark text-decoration-none">Chính Sách Thanh Toán</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-2 col-md-6 mb-4">
-                <h5 class="fw-bold text-dark">Hỗ Trợ</h5>
-                <ul class="list-unstyled text-dark">
-                    <li><a href="faq.html" class="text-dark text-decoration-none">FAQ</a></li>
-                    <li><a href="knowledge.html" class="text-dark text-decoration-none">Kiến Thức</a></li>
-                    <li><a href="contact.html" class="text-dark text-decoration-none">Liên Hệ</a></li>
-                </ul>
+            
+            <hr class="my-4 border-white-50">
+            <div class="row align-items-center text-center">
+                <div class="col-md-12">
+                    <p class="mb-0 text-dark">&copy; 2025 CodeMarket. All rights reserved.</p>
+                </div>
             </div>
         </div>
-        <hr class="my-4 border-white-50">
-        <div class="row align-items-center text-center">
-            <div class="col-md-12 ">
-                <p class="mb-0 text-dark">&copy; 2025 CodeMarket. All rights reserved.</p>
-            </div>
-        </div>
-    </div>
-</footer>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/main.js"></script>
 </body>
 </html>
