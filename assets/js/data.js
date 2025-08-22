@@ -93,7 +93,7 @@ const products = [
             "Quản lý sản phẩm",
             "Quản lý đơn hàng",
         ],
-        demo: "https://www.youtube.com/watch?v=l-zmiHSqXUk",
+        demo: "https://youtu.be/l-zmiHSqXUk",
         version: "2.1.0",
         lastUpdate: "2024-01-15",
         fileSize: "25 MB",
@@ -136,7 +136,7 @@ const products = [
             "Quản lý đơn hàng",
             "Quản lý người dùng"
         ],
-        demo: "https://www.youtube.com/watch?v=xwY9oGEggoM",
+        demo: "https://youtu.be/xwY9oGEggoM",
         version: "2.1.0",
         lastUpdate: "2025-08-08",
         fileSize: "25 MB",
@@ -194,7 +194,7 @@ const products = [
             "Thông tin có nhân",
             "Đăng xuất"
         ],
-        demo: "https://www.youtube.com/watch?v=2hRhl4Ffc4I",
+        demo: "https://youtu.be/2hRhl4Ffc4I",
         version: "1.0.0",
         lastUpdate: "2025-08-18",
         fileSize: "5 MB",
@@ -238,7 +238,7 @@ const products = [
             "Slider",
             "Users"
         ],
-        demo: "https://www.youtube.com/watch?v=K-jGAMLw0a4",
+        demo: "https://youtu.be/K-jGAMLw0a4",
         version: "1.2.0",
         lastUpdate: "2025-08-21",
         fileSize: "15 MB",
@@ -281,14 +281,132 @@ const products = [
             "Sản phẩm",
             "Phụ kiện",
             "Tin tức",
-            "Dơn hàng",
+            "Đơn hàng",
             "Hãng sản xuất",
             "Khách hàng",
             "Phản hồi"
         ],
-        demo: "https://www.youtube.com/watch?v=Nj0W2sH4KnM",
+        demo: "https://youtu.be/Nj0W2sH4KnM",
         version: "2.1.0",
         lastUpdate: "2025-08-21",
+        fileSize: "25 MB",
+        popular: false
+    },
+    {
+        id: 6,
+        title: "Hệ thống website mượn trả phòng trọ - PHP Laravel",
+        description: "Hệ thống website quản lý với PHP Laravel",
+        category: "web",
+        subCategory: "php",
+        price: 2200000,
+        originalPrice: 3000000,
+        image: "https://i.ibb.co/JRJN8kyD/image1.png",
+        images: [
+            "https://i.ibb.co/JRJN8kyD/image1.png",
+            "https://i.ibb.co/7JzMK196/image2.png",
+            "https://i.ibb.co/21vXgZ3V/image3.png",
+            "https://i.ibb.co/yDGM5Tb/image4.png",
+            "https://i.ibb.co/WvhxnTyd/image5.png",
+            "https://i.ibb.co/WNgkDcGJ/image6.png",
+            "https://i.ibb.co/0ynz0n2F/image7.png",
+            "https://i.ibb.co/b50mVYz0/image8.png",
+            "https://i.ibb.co/vv3cbQJF/image9.png",
+            "https://i.ibb.co/Rk63cpMV/image10.png",
+            "https://i.ibb.co/SXn0HgXv/image11.png",
+            "https://i.ibb.co/gQ5R1Sd/image12.png",
+            "https://i.ibb.co/845mffVT/image13.png"
+        ],
+        rating: 4.7,
+        reviews: 67,
+        technologies: ["PHP", "Laravel", "PhpMyAdmin"],
+        features: [
+            "Dashboard",
+            "Phòng học",
+            "Thời khoá biểu",
+            "Mượn phòng",
+            "Trả phòng",
+            "Lớp học",
+            "Sinh viên",
+            "Tài khoản",
+            "Cài đặt"
+        ],
+        demo: "https://youtu.be/gmqSlDE7n_w",
+        version: "2.1.0",
+        lastUpdate: "2025-08-22",
+        fileSize: "25 MB",
+        popular: false
+    },
+    {
+        id: 7,
+        title: "Hệ thống website tin tức quảng bá du lịch ẩm thực - PHP Laravel",
+        description: "Hệ thống website tin tức với PHP Laravel",
+        category: "web",
+        subCategory: "php",
+        price: 2200000,
+        originalPrice: 3000000,
+        image: "https://i.ibb.co/fdCwc4np/image1.png",
+        images: [
+            "https://i.ibb.co/fdCwc4np/image1.png",
+            "https://i.ibb.co/zWMtzxD9/image2.png",
+            "https://i.ibb.co/9HjBz5FT/image3.png",
+            "https://i.ibb.co/ycNVt86q/image4.png",
+            "https://i.ibb.co/3mHKzHS2/image5.png",
+            "https://i.ibb.co/V0tqhv7B/image6.png",
+            "https://i.ibb.co/xS9mpcDf/image7.png",
+            "https://i.ibb.co/prfgM4p8/image8.png"
+        ],
+        rating: 4.7,
+        reviews: 67,
+        technologies: ["PHP", "Laravel", "PhpMyAdmin"],
+        features: [
+            "Dashboard",
+            "Danh mục",
+            "Tin tức",
+            "Cài đặt"
+        ],
+        demo: "https://youtu.be/IQ8BKFNZZJw",
+        version: "2.1.0",
+        lastUpdate: "2025-08-22",
+        fileSize: "25 MB",
+        popular: false
+    },
+    {
+        id: 8,
+        title: "Hệ thống website tìm việc - PHP Laravel",
+        description: "Hệ thống website quản lý với PHP Laravel",
+        category: "web",
+        subCategory: "php",
+        price: 2200000,
+        originalPrice: 3000000,
+        image: "https://i.ibb.co/0y9jgVWK/image1.png",
+        images: [
+            "https://i.ibb.co/0y9jgVWK/image1.png",
+            "https://i.ibb.co/7xcCbnSh/image2.png",
+            "https://i.ibb.co/Vpx7DgDd/image3.png",
+            "https://i.ibb.co/4n0mfsxy/image4.png",
+            "https://i.ibb.co/pBWdkRRh/image5.png",
+            "https://i.ibb.co/357TkQxV/image6.png",
+            "https://i.ibb.co/LDDhsT4H/image7.png",
+            "https://i.ibb.co/k22pJsRJ/image8.png",
+            "https://i.ibb.co/qYz936f8/image9.png",
+            "https://i.ibb.co/jv6spJSf/image10.png",
+            "https://i.ibb.co/rGptspWV/image11.png",
+            "https://i.ibb.co/wr2x5LNx/image12.png",
+            "https://i.ibb.co/3YL4Qdym/image13.png"
+        ],
+        rating: 4.7,
+        reviews: 67,
+        technologies: ["PHP", "Laravel", "PhpMyAdmin"],
+        features: [
+            "Dashboard",
+            "Người dùng",
+            "Lĩnh vực",
+            "Công việc",
+            "Công ty"
+        ],
+        demo: "https://youtu.be/Ei0-NK_dQLo",
+        version: "2.1.0",
+        lastUpdate: "2025-08-22",
         fileSize: "25 MB",
         popular: false
     },
@@ -496,9 +614,6 @@ const products = [
     {
 
     }
-
-    
-    
 ];
 
 // Knowledge Articles Data
