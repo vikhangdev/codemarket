@@ -62,8 +62,8 @@ const products = [
         description: "website bán hàng truc tuyến",
         category: "web",
         subCategory: "csharp",
-        price: 250000,
-        originalPrice: 350000,
+        price: 2000000,
+        originalPrice: 2500000,
         image: "https://i.ibb.co/5x68XDhH/image1.png",
         images: [
             "https://i.ibb.co/5x68XDhH/image1.png",
