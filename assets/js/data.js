@@ -141,7 +141,6 @@ const products = [
         lastUpdate: "2025-08-08",
         fileSize: "25 MB",
         popular: true
-
     },
     {
         id: 3,
@@ -409,6 +408,54 @@ const products = [
         lastUpdate: "2025-08-22",
         fileSize: "25 MB",
         popular: false
+    },
+    {
+        id: 9,
+        title: "Hệ thống website bán quần áo - Java Spring boot",
+        description: "Hệ thống website bán quần áo - Java Spring boot",
+        category: "web",
+        subCategory: "java",
+        price: 2200000,
+        originalPrice: 3000000,
+        image: "https://i.ibb.co/Kc4596c7/image4.png",
+        images: [
+            "https://i.ibb.co/Kc4596c7/image4.png",
+            "https://i.ibb.co/wNqFqDNL/image5.png",  
+            "https://i.ibb.co/zWVYRWNL/image6.png",
+            "https://i.ibb.co/KjkQVPZ0/image7.png",
+            "https://i.ibb.co/VYgZRyqz/image8.png",
+            "https://i.ibb.co/xxYRh7q/image9.png",
+            "https://i.ibb.co/hxJZys3L/image10.png",
+            "https://i.ibb.co/GQ7ZT2PG/image11.png",
+            "https://i.ibb.co/7DdFjtb/image12.png",
+            "https://i.ibb.co/7NxTQCXg/image13.png",
+            "https://i.ibb.co/ymH1f3pW/image14.png",
+            "https://i.ibb.co/KpVQtmG3/image15.png",
+            "https://i.ibb.co/5xY1mJFb/image16.png",
+            "https://i.ibb.co/zT3HnjnB/image17.png",
+            "https://i.ibb.co/8vQgJqm/image18.png",
+            "https://i.ibb.co/57LGdmG/image1.png",
+            "https://i.ibb.co/zHBkL0tJ/image2.png",
+            "https://i.ibb.co/Vbbq0mW/image3.png"
+        ],
+        rating: 4.7,
+        reviews: 67,
+        technologies: ["Java Spring boot","React", "MySQL"],
+        features: [
+            "Overview",
+            "Quản lý sản phẩm",
+            "Quản lý loại sản phẩm",
+            "Quản lý màu sản phẩm",
+            "Quản lý size sản phẩm",
+            "Quản lý đơn hàng",
+            "Mã giảm giá",
+            "Phiếu giảm giá"
+        ],
+        demo: "https://youtu.be/nTl_DNwi7w4",
+        version: "2.1.0",
+        lastUpdate: "2025-09-12",
+        fileSize: "25 MB",
+        popular: true
     },
     // Mobile từ 101 đến 200
     {
