@@ -2,7 +2,9 @@
 
 let currentArticles = [];
 let currentArticleFilter = 'all';
-let articlesLoaded = 6;
+// tổng bài viết hiển thị
+let articlesLoaded = 6; 
+
 const articlesPerLoad = 6;
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -95,7 +97,7 @@ function renderArticles(articles) {
         `;
         return;
     }
-    
+    // cài hiển thị tối đa 5 tags tại dòng 133
     articlesGrid.innerHTML = articles.map(article => `
         <div class="col-md-6 col-lg-4 mb-4">
             <div class="card article-card h-100 border-0 shadow-sm">
@@ -128,7 +130,7 @@ function renderArticles(articles) {
                     </div>
                     
                     <div class="article-tags mb-3">
-                        ${article.tags.slice(0, 3).map(tag => `<span class="tech-tag small">${tag}</span>`).join('')}
+                        ${article.tags.slice(0, 5).map(tag => `<span class="tech-tag small">${tag}</span>`).join('')}
                     </div>
                     
                     <div class="mt-auto">
@@ -170,23 +172,39 @@ function handleArticleSearch(event) {
     loadArticles();
 }
 
+// Ấn nút đọc bài viết để chuyển sang trang web mới
 function readArticle(articleId) {
     const article = articles.find(a => a.id === articleId);
-    if (article) {
-        // Simulate opening article detail page
-        showNotification(`Đang mở bài viết: ${article.title}`, 'info');
-        // In a real application, this would navigate to the article detail page
-        // window.location.href = `article-detail.html?id=${articleId}`;
+    if (article && article.content) {
+        window.open(article.content, "_blank"); // mở tab mới
+        // Hoặc: window.location.href = article.content; // mở trong cùng tab
+    } else {
+        alert("Không tìm thấy bài viết hoặc link không hợp lệ!");
     }
 }
 
+// function readArticle(articleId) {
+//     const article = articles.find(a => a.id === articleId);
+//     if (article) {
+//         // Simulate opening article detail page
+//         showNotification(`Đang mở bài viết: ${article.title}`, 'info');
+//         // In a real application, this would navigate to the article detail page
+//         //window.location.href = `article-detail.html?id=${articleId}`;
+//     }
+// }
+
+
 function getCategoryDisplayName(category) {
     const categoryNames = {
+        'wordpress': 'Wordpress',
         'frontend': 'Frontend',
         'backend': 'Backend',
+        'programming': 'Programming',
         'mobile': 'Mobile',
-        'devops': 'DevOps',
-        'tips': 'Tips & Tricks'
+        'database': 'Database',
+        'hosting': 'Hosting',
+        'tools': 'Tools',
+        'tinhoc': 'Tin học văn phòng'
     };
     return categoryNames[category] || category;
 }

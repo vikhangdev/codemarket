@@ -209,20 +209,32 @@
                         <button class="btn btn-outline-primary filter-btn active" data-category="all">
                             Tất Cả
                         </button>
+                        <button class="btn btn-outline-primary filter-btn" data-category="wordpress">
+                            Wordpress
+                        </button>
                         <button class="btn btn-outline-primary filter-btn" data-category="frontend">
                             Frontend
                         </button>
                         <button class="btn btn-outline-primary filter-btn" data-category="backend">
                             Backend
                         </button>
+                        <button class="btn btn-outline-primary filter-btn" data-category="programming">
+                            Programming
+                        </button>
                         <button class="btn btn-outline-primary filter-btn" data-category="mobile">
                             Mobile
                         </button>
-                        <button class="btn btn-outline-primary filter-btn" data-category="devops">
-                            DevOps
+                        <button class="btn btn-outline-primary filter-btn" data-category="database">
+                            Database
                         </button>
-                        <button class="btn btn-outline-primary filter-btn" data-category="tips">
-                            Tips & Tricks
+                        <button class="btn btn-outline-primary filter-btn" data-category="hosting">
+                            Hosting
+                        </button>
+                        <button class="btn btn-outline-primary filter-btn" data-category="tools">
+                            Tools
+                        </button>
+                        <button class="btn btn-outline-primary filter-btn" data-category="tinhoc">
+                            Tin học văn phòng
                         </button>
                     </div>
                 </div>
@@ -316,15 +328,15 @@
         </div>
     </section>
 
-    <!-- Articles Grid -->
+    <!-- Articles Grid: Hiển thị bài viết -->
     <section class="py-5 bg-light">
         <div class="container">
             <div class="row g-4" id="articlesGrid">
                 <!-- Articles will be loaded here -->
             </div>
 
-            <!-- Load More -->
-            <div class="text-center mt-5">
+            <!-- Load More: Hiển thị nút xem thêm khi tổng bài viết > 6-->
+            <div class="d-flex justify-content-center mt-5">
                 <button class="btn btn-primary btn-lg" id="loadMoreBtn">
                     <i class="bi bi-arrow-down-circle"></i> Xem Thêm Bài Viết
                 </button>

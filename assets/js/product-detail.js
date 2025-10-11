@@ -227,7 +227,7 @@ function renderProductTabs(product) {
                                 // không có video thì đến trang liên hệ để liên hệ
                                 else 
                                 { 
-                                    if(confirm('Dung lượng video demo quá lớn. Vui lòng liên hệ để được xem demo.'))
+                                    if(confirm('Vui lòng liên hệ qua zalo / facebook để xem demo nhé !!!'))
                                     {
                                         window.location.href='contact.html'; 
                                     }
