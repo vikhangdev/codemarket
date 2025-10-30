@@ -105,8 +105,8 @@ const products = [
         description: "Website bán sách với Php Laravel",
         category: "web",
         subCategory: "php",
-        price: 500000,
-        originalPrice: 350000,
+        price: 1500000,
+        originalPrice: 2000000,
         image: "https://i.ibb.co/QjDzYZzr/image1.png",
         images: [
             "https://i.ibb.co/QjDzYZzr/image1.png",
@@ -148,8 +148,8 @@ const products = [
         description: "Website bán sách với Php Laravel",
         category: "web",
         subCategory: "php",
-        price: 500000,
-        originalPrice: 800000,
+        price: 1500000,
+        originalPrice: 2000000,
         image: "https://i.ibb.co/Psv42SVT/image1.png",
         images: [
             "https://i.ibb.co/Psv42SVT/image1.png",
@@ -415,8 +415,8 @@ const products = [
         description: "Website quản lý - PHP Thuần",
         category: "web",
         subCategory: "php",
-        price: 500000,
-        originalPrice: 600000,
+        price: 1500000,
+        originalPrice: 2000000,
         image: "https://i.ibb.co/fGvP1GZY/image1.png",
         images: [
             "https://i.ibb.co/fGvP1GZY/image1.png",
@@ -460,8 +460,8 @@ const products = [
         description: "Website bán hàng - PHP Thuần",
         category: "web",
         subCategory: "php",
-        price: 500000,
-        originalPrice: 600000,
+        price: 1000000,
+        originalPrice: 1500000,
         image: "https://i.ibb.co/MkVBnVLf/image1.png",
         images: [
             "https://i.ibb.co/MkVBnVLf/image1.png",
@@ -504,8 +504,8 @@ const products = [
         description: "Website bán quần áo - Java Spring boot",
         category: "web",
         subCategory: "java",
-        price: 500000,
-        originalPrice: 600000,
+        price: 1500000,
+        originalPrice: 2000000,
         image: "https://i.ibb.co/Kc4596c7/image4.png",
         images: [
             "https://i.ibb.co/Kc4596c7/image4.png",
@@ -549,32 +549,28 @@ const products = [
     // Mobile từ 101 đến 200
     {
         id: 101,
-        title: "Mobile Banking App",
-        description: "Ứng dụng ngân hàng di động với React Native và Firebase",
+        title: "BMI Calculator App",
+        description: "Ứng dụng tính BMI",
         category: "mobile",
-        subCategory: "reactnative",
-        price: 3200000,
-        originalPrice: 4200000,
-        image: "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg",
+        subCategory: "java",
+        price: 500000,
+        originalPrice: 600000,
+        image: "https://i.ibb.co/nqxsctM7/image1.png",
         images: [
-            "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg",
-            "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg"
+            "https://i.ibb.co/nqxsctM7/image1.png",
+            "https://i.ibb.co/nNS6dCMG/image2.png"
         ],
         rating: 4.9,
         reviews: 89,
-        technologies: ["React Native", "Firebase", "Redux", "TypeScript"],
+        technologies: ["Java"],
         features: [
-            "Đăng nhập bảo mật",
-            "Chuyển tiền nhanh",
-            "Lịch sử giao dịch",
-            "Thông báo real-time",
-            "Face ID / Touch ID"
+            "Tính BMI",
         ],
-        demo: "https://demo.example.com",
+        demo: "",
         version: "1.5.2",
-        lastUpdate: "2024-01-10",
-        fileSize: "18 MB",
-        popular: true
+        lastUpdate: "2025-10-29",
+        fileSize: "37.5 MB",
+        popular: false
     },
     {
         id: 102,
@@ -861,6 +857,58 @@ const articles = [
     // FE
     {
         id: 101,
+        title: "Học HTML & CSS",
+        excerpt: "Nền tảng cơ bản trong phát triển web. Hướng dẫn cách tạo cấu trúc trang, bố cục, màu sắc, phông chữ và hiệu ứng để thiết kế website đẹp mắt và dễ sử dụng.",
+        content: "https://freetuts.net/hoc-html-css",
+        category: "frontend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-12",
+        readTime: "12 phút",
+        views: 621,
+        image: "assets/image/logo/HTML-CSS.png",
+        tags: ["HTML", "CSS", "Frontend"]
+    },
+    {
+        id: 102,
+        title: "Học Bootstrap",
+        excerpt: "Tìm hiểu Bootstrap – bộ công cụ thiết kế giao diện web phổ biến nhất hiện nay. Học cách sử dụng grid system, button, navbar và các thành phần UI sẵn có để tiết kiệm thời gian lập trình.",
+        content: "https://freetuts.net/hoc-bootstrap",
+        category: "frontend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-12",
+        readTime: "12 phút",
+        views: 711,
+        image: "assets/image/logo/bootstrap.png",
+        tags: ["Bootstrap", "grid system","button", "navbar", "Frontend"]
+    },
+     {
+        id: 103,
+        title: "Học Tailwind CSS",
+        excerpt: "Tìm hiểu Tailwind CSS – công cụ thiết kế web hiện đại theo hướng “utility-first”. Hướng dẫn cách sử dụng class tiện ích để tạo bố cục, màu sắc, khoảng cách và hiệu ứng chuyên nghiệp.",
+        content: "https://freetuts.net/tailwind-css",
+        category: "frontend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-10",
+        readTime: "2 giờ",
+        views: 891,
+        image: "assets/image/logo/tailwind-css.png",
+        tags: ["Tailwind","Bố cục","Màu sắc", "Khoảng cách", "Frontend"]
+    },
+    {
+        id: 104,
+        title: "Học SASS CSS",
+        excerpt: "Tìm hiểu Sass – công cụ tiền xử lý CSS mạnh mẽ. Học cách sử dụng biến, mixin, nested rules và import để tổ chức mã CSS chuyên nghiệp, dễ mở rộng và tái sử dụng.",
+        content: "https://freetuts.net/hoc-sass-css",
+        category: "frontend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-12",
+        readTime: "34 phút",
+        views: 111,
+        image: "assets/image/logo/sass-css.png",
+        tags: ["SASS CSS","Mixin","Nested rules", "Frontend"]
+    },
+    {
+        id: 105,
         title: "Học Javascript",
         excerpt: "Cùng khám phá JavaScript qua các bài học dễ hiểu, bài tập thực hành và thủ thuật lập trình hữu ích.",
         content: "https://freetuts.net/hoc-javascript",
@@ -869,11 +917,50 @@ const articles = [
         date: "2025-10-10",
         readTime: "9 phút",
         views: 432,
-        image: "assets/image/logo/JavaScript.png",
+        image: "assets/image/logo/Java-script.jpg",
         tags: ["Javascript","Frontend"]
     },
     {
-        id: 102,
+        id: 106,
+        title: "Học TypeScript",
+        excerpt: "Ngôn ngữ được phát triển bởi Microsoft, bổ sung kiểu dữ liệu tĩnh và tính năng hướng đối tượng cho JavaScript. Học cách sử dụng class, interface, module và generics hiệu quả.",
+        content: "https://freetuts.net/hoc-typescript",
+        category: "frontend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-12",
+        readTime: "1 giờ 30 phút",
+        views: 621,
+        image: "assets/image/logo/TypeScript.png",
+        tags: ["TypeScript", "Class", "Interface", "Module", "Generics", "Frontend"]
+    },
+    {
+        id: 107,
+        title: "Học jQuery | Tự học jQuery",
+        excerpt: "Tự học jQuery từng bước, nắm vững cách sử dụng selector, event, animation và AJAX.",
+        content: "https://freetuts.net/hoc-jquery",
+        category: "frontend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-10",
+        readTime: "12 phút",
+        views: 600,
+        image: "assets/image/logo/jquery.png",
+        tags: ["jQuery", "Frontend"]
+    },
+    {
+        id: 108,
+        title: "Học jQuery Mobile",
+        excerpt: "Tìm hiểu jQuery Mobile – framework phát triển giao diện web di động dựa trên jQuery. Học cách tạo layout, form, danh sách và hiệu ứng cảm ứng dễ sử dụng cho người dùng smartphone.",
+        content: "https://freetuts.net/hoc-jquery-mobile",
+        category: "frontend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-12",
+        readTime: "24 phút",
+        views: 621,
+        image: "assets/image/logo/jquery.png",
+        tags: ["jQuery", "Layout", "Form", "Danh sách", "Hiệu ứng", "Frontend"]
+    },
+    {
+        id: 109,
         title: "Học AngularJS",
         excerpt: "Từng bước tìm hiểu AngularJS: từ cấu trúc MVC, directive, service đến routing và API.",
         content: "https://freetuts.net/hoc-angularjs",
@@ -886,136 +973,44 @@ const articles = [
         tags: ["Angular", "Frontend"]
     },
     {
-        id: 103,
-        title: "Học jQuery | Tự học jQuery",
-        excerpt: "Tự học jQuery từng bước, nắm vững cách sử dụng selector, event, animation và AJAX.",
-        content: "https://freetuts.net/hoc-jquery",
+        id: 110,
+        title: "Học VueJS",
+        excerpt: "Tìm hiểu VueJS – framework JavaScript mạnh mẽ và nhẹ, giúp phát triển giao diện tương tác nhanh chóng. Học cách sử dụng component, directive, event và reactive data hiệu quả.",
+        content: "https://freetuts.net/hoc-vuejs",
         category: "frontend",
         author: "Nguyễn Vĩ Khang",
         date: "2025-10-10",
-        readTime: "12 phút",
-        views: 600,
-        image: "assets/image/logo/jquery.png",
-        tags: ["jQuery", "Frontend"]
+        readTime: "80 phút",
+        views: 259,
+        image: "assets/image/logo/vuejs.png",
+        tags: ["VueJS", "Component", "Directive", "Event", "Reactive data", "Frontend"]
     },
-    // {
-    //     id: 104,
-    //     title: "Học AngularJS",
-    //     excerpt: "Từng bước tìm hiểu AngularJS: từ cấu trúc MVC, directive, service đến routing và API. Cung cấp kiến thức thực tế giúp bạn làm chủ lập trình front-end hiện đại.",
-    //     content: "https://freetuts.net/hoc-angularjs",
-    //     category: "frontend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/angular.png",
-    //     tags: ["Angular", "Frontend"]
-    // },
-    // {
-    //     id: 105,
-    //     title: "Học AngularJS",
-    //     excerpt: "Từng bước tìm hiểu AngularJS: từ cấu trúc MVC, directive, service đến routing và API. Cung cấp kiến thức thực tế giúp bạn làm chủ lập trình front-end hiện đại.",
-    //     content: "https://freetuts.net/hoc-angularjs",
-    //     category: "frontend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/angular.png",
-    //     tags: ["Angular", "Frontend"]
-    // },
-    // {
-    //     id: 106,
-    //     title: "Học AngularJS",
-    //     excerpt: "Từng bước tìm hiểu AngularJS: từ cấu trúc MVC, directive, service đến routing và API. Cung cấp kiến thức thực tế giúp bạn làm chủ lập trình front-end hiện đại.",
-    //     content: "https://freetuts.net/hoc-angularjs",
-    //     category: "frontend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/angular.png",
-    //     tags: ["Angular", "Frontend"]
-    // },
-    // {
-    //     id: 107,
-    //     title: "Học AngularJS",
-    //     excerpt: "Từng bước tìm hiểu AngularJS: từ cấu trúc MVC, directive, service đến routing và API. Cung cấp kiến thức thực tế giúp bạn làm chủ lập trình front-end hiện đại.",
-    //     content: "https://freetuts.net/hoc-angularjs",
-    //     category: "frontend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/angular.png",
-    //     tags: ["Angular", "Frontend"]
-    // },
-    // {
-    //     id: 108,
-    //     title: "Học AngularJS",
-    //     excerpt: "Từng bước tìm hiểu AngularJS: từ cấu trúc MVC, directive, service đến routing và API. Cung cấp kiến thức thực tế giúp bạn làm chủ lập trình front-end hiện đại.",
-    //     content: "https://freetuts.net/hoc-angularjs",
-    //     category: "frontend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/angular.png",
-    //     tags: ["Angular", "Frontend"]
-    // },
-    // {
-    //     id: 109,
-    //     title: "Học AngularJS",
-    //     excerpt: "Từng bước tìm hiểu AngularJS: từ cấu trúc MVC, directive, service đến routing và API. Cung cấp kiến thức thực tế giúp bạn làm chủ lập trình front-end hiện đại.",
-    //     content: "https://freetuts.net/hoc-angularjs",
-    //     category: "frontend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/angular.png",
-    //     tags: ["Angular", "Frontend"]
-    // },
-    // {
-    //     id: 110,
-    //     title: "Học AngularJS",
-    //     excerpt: "Từng bước tìm hiểu AngularJS: từ cấu trúc MVC, directive, service đến routing và API. Cung cấp kiến thức thực tế giúp bạn làm chủ lập trình front-end hiện đại.",
-    //     content: "https://freetuts.net/hoc-angularjs",
-    //     category: "frontend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/angular.png",
-    //     tags: ["Angular", "Frontend"]
-    // },
-    // {
-    //     id: 111,
-    //     title: "Học AngularJS",
-    //     excerpt: "Từng bước tìm hiểu AngularJS: từ cấu trúc MVC, directive, service đến routing và API. Cung cấp kiến thức thực tế giúp bạn làm chủ lập trình front-end hiện đại.",
-    //     content: "https://freetuts.net/hoc-angularjs",
-    //     category: "frontend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/angular.png",
-    //     tags: ["Angular", "Frontend"]
-    // },
-    // {
-    //     id: 112,
-    //     title: "Học AngularJS",
-    //     excerpt: "Từng bước tìm hiểu AngularJS: từ cấu trúc MVC, directive, service đến routing và API. Cung cấp kiến thức thực tế giúp bạn làm chủ lập trình front-end hiện đại.",
-    //     content: "https://freetuts.net/hoc-angularjs",
-    //     category: "frontend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/angular.png",
-    //     tags: ["Angular", "Frontend"]
-    // },
-    
+    {
+        id: 111,
+        title: "Học NestJS",
+        excerpt: "Tìm hiểu NestJS – framework backend hiện đại, kết hợp sức mạnh của TypeScript và kiến trúc hướng module. Học cách xây dựng RESTful API, quản lý middleware, guard và dependency injection.",
+        content: "https://freetuts.net/hoc-nestjs",
+        category: "frontend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-12",
+        readTime: "2 phút",
+        views: 827,
+        image: "assets/image/logo/nestjs.jpg",
+        tags: ["NestJS", "RESTful API", "Middleware", "Guard", "Dependency injection", "Frontend"]
+    },
+    {
+        id: 112,
+        title: "Học ReactJS",
+        excerpt: "Tìm hiểu ReactJS – thư viện front-end do Facebook phát triển, giúp tạo ứng dụng web động thông qua component và Virtual DOM. Học cách quản lý state, props và sự kiện trong React.",
+        content: "https://freetuts.net/reactjs",
+        category: "frontend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-10",
+        readTime: "1 giờ 28 phút",
+        views: 321,
+        image: "assets/image/logo/reactjs.png",
+        tags: ["ReactJS","Component", "Virtual DOM", "Frontend"]
+    },
     //BE
     {
         id: 201,
@@ -1056,58 +1051,32 @@ const articles = [
         image: "assets/image/logo/laravel.png",
         tags: ["PHP", "Backend"]
     },
-    // {
-    //     id: 204,
-    //     title: "Tự Học PHP",
-    //     excerpt: "Hướng dẫn tự học PHP chi tiết, từng bước làm quen với cú pháp, biến, hàm, form, và cơ sở dữ liệu MySQL. Giúp bạn phát triển kỹ năng lập trình web bền vững và hiệu quả.",
-    //     content: "https://freetuts.net/hoc-php",
-    //     category: "backend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/php.svg",
-    //     tags: ["PHP", "Backend"]
-    // },
-    // {
-    //     id: 205,
-    //     title: "Tự Học PHP",
-    //     excerpt: "Hướng dẫn tự học PHP chi tiết, từng bước làm quen với cú pháp, biến, hàm, form, và cơ sở dữ liệu MySQL. Giúp bạn phát triển kỹ năng lập trình web bền vững và hiệu quả.",
-    //     content: "https://freetuts.net/hoc-php",
-    //     category: "backend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/php.svg",
-    //     tags: ["PHP", "Backend"]
-    // },
-    // {
-    //     id: 206,
-    //     title: "Tự Học PHP",
-    //     excerpt: "Hướng dẫn tự học PHP chi tiết, từng bước làm quen với cú pháp, biến, hàm, form, và cơ sở dữ liệu MySQL. Giúp bạn phát triển kỹ năng lập trình web bền vững và hiệu quả.",
-    //     content: "https://freetuts.net/hoc-php",
-    //     category: "backend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/php.svg",
-    //     tags: ["PHP", "Backend"]
-    // },
-    // {
-    //     id: 207,
-    //     title: "Tự Học PHP",
-    //     excerpt: "Hướng dẫn tự học PHP chi tiết, từng bước làm quen với cú pháp, biến, hàm, form, và cơ sở dữ liệu MySQL. Giúp bạn phát triển kỹ năng lập trình web bền vững và hiệu quả.",
-    //     content: "https://freetuts.net/hoc-php",
-    //     category: "backend",
-    //     author: "Nguyễn Vĩ Khang",
-    //     date: "2025-10-10",
-    //     readTime: "12 phút",
-    //     views: 621,
-    //     image: "assets/image/logo/php.svg",
-    //     tags: ["PHP", "Backend"]
-    // },
+    {
+        id: 204,
+        title: "Học OpenCart",
+        excerpt: "Hệ thống quản lý cửa hàng trực tuyến mạnh mẽ, hỗ trợ đa ngôn ngữ, đa tiền tệ. Hướng dẫn cài đặt, quản lý sản phẩm, đơn hàng và tùy chỉnh giao diện.",
+        content: "https://freetuts.net/hoc-opencart",
+        category: "backend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-12",
+        readTime: "4 phút",
+        views: 621,
+        image: "assets/image/logo/opencart.png",
+        tags: ["Opencart", "Backend"]
+    },
+    {
+        id: 205,
+        title: "Học NodeJS",
+        excerpt: "Nền tảng mạnh mẽ giúp lập trình JavaScript phía backend. Học cách sử dụng module, ExpressJS, xử lý file, và làm việc với cơ sở dữ liệu một cách linh hoạt.",
+        content: "https://freetuts.net/hoc-nodejs",
+        category: "backend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-12",
+        readTime: "2 giờ",
+        views: 621,
+        image: "assets/image/logo/Node.png",
+        tags: ["NodeJS","Module","ExpressJS", "Backend"]
+    },
     // Programming
     {
         id: 301,
@@ -1143,9 +1112,9 @@ const articles = [
         category: "programming",
         author: "Nguyễn Vĩ Khang",
         date: "2025-10-10",
-        readTime: "12 phút",
+        readTime: "2 phút",
         views: 750,
-        image: "assets/image/logo/php.svg",
+        image: "assets/image/logo/ai.png",
         tags: ["AI","Machine Learning", "Programming"]
     },
     {
@@ -1342,7 +1311,7 @@ const articles = [
         date: "2025-10-11",
         readTime: "120 phút",
         views: 478,
-        image: "assets/image/logo/mysql.png",
+        image: "assets/image/logo/mysql.jpg",
         tags: ["CSDL","Stored Procedure","Trigger","Database"]
     },
     {
@@ -1414,6 +1383,19 @@ const articles = [
     // Tools
     {
         id: 701,
+        title: "Học Visual Studio Code",
+        excerpt: "Từng bước làm quen với Visual Studio Code – trình soạn thảo mã nguồn mạnh mẽ, dễ dùng và miễn phí. Học cách cài đặt, tùy chỉnh giao diện, cài extension hỗ trợ lập trình, sử dụng terminal tích hợp và quản lý dự án hiệu quả.",
+        content: "https://code.visualstudio.com/docs/getstarted/getting-started",
+        category: "tools",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-24",
+        readTime: "12 phút",
+        views: 821,
+        image: "assets/image/logo/VS-Code.png",
+        tags: ["Tools","Visual Studio Code"]
+    },
+    {
+        id: 702,
         title: "Học Git | Git toàn tập",
         excerpt: "Khóa học Git & GitHub giúp bạn nắm vững quy trình làm việc hiện đại của lập trình viên: quản lý phiên bản, cộng tác nhóm, xử lý xung đột và triển khai dự án lên GitHub.",
         content: "https://freetuts.net/hoc-git",
@@ -1426,7 +1408,7 @@ const articles = [
         tags: ["Tools","Git","Github"]
     },
     {
-        id: 702,
+        id: 703,
         title: "Học Testing",
         excerpt: "Học Testing từ cơ bản đến nâng cao: hiểu về Unit Test, Integration Test, System Test và Automation Test. Cải thiện quy trình phát triển phần mềm bằng các phương pháp kiểm thử hiện đại.",
         content: "https://freetuts.net/testing",
@@ -1439,7 +1421,7 @@ const articles = [
         tags: ["Tools","Unit Test", "Integration Test", "System Test", "Automation Test"]
     },
     {
-        id: 703,
+        id: 704,
         title: "Học Docker",
         excerpt: "Học Docker từ cơ bản đến nâng cao: hiểu container, image, volume, và network.",
         category: "tools",
@@ -1451,7 +1433,7 @@ const articles = [
         tags: ["Tools","Docker","Container","Image","Volume","Netwwork"]
     },
     {
-        id: 704,
+        id: 705,
         title: "Học Control Panel",
         excerpt: "Học cPanel từ cơ bản đến nâng cao: tạo website, cấu hình domain, quản lý file, database và bảo mật hosting.",
         content: "https://freetuts.net/control-panel",
@@ -1460,7 +1442,7 @@ const articles = [
         date: "2025-10-11",
         readTime: "30 phút",
         views: 650,
-        image: "assets/image/logo/Cpanel.png",
+        image: "assets/image/logo/cpanel.png",
         tags: ["Tools","Cpanel","Direct Admin"]
     },
     // Tin học văn phòng
@@ -1544,7 +1526,7 @@ const faqs = [
     {
         id: 2,
         question: "Tôi có thể thanh toán bằng cách nào?",
-        answer: "Chúng tôi hỗ trợ thanh toán qua thẻ tín dụng, chuyển khoản ngân hàng, ví điện tử MoMo, ZaloPay và các phương thức thanh toán phổ biến khác.",
+        answer: "Chúng tôi hỗ trợ thanh toán qua chuyển khoản ngân hàng, ví điện tử MoMo và các phương thức thanh toán phổ biến khác.",
         category: "purchase"
     },
     {

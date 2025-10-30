@@ -89,17 +89,20 @@ body {
 .feature-icon {
     width: 80px;
     height: 80px;
-    background: var(--gradient-primary);
+    /* background: var(--gradient-primary); */
+    background: #7dc2ff;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    
 }
 
 .feature-icon i {
     font-size: 2rem;
-    color: white;
+    /* color: white; */
+    color: #015ae0;
 }
 
 /* Category Cards */
@@ -432,7 +435,7 @@ body {
 /* Dropdown Menu Enhancements */
 .dropdown-menu {
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 30px #00000026;
     border: none;
 }
 
@@ -447,14 +450,14 @@ body {
 .dropdown-item {
     padding: 4px 16px;  /*4 là trên duoi, 16 là trái phải*/
     border-radius: 6px;
-    margin: 2px 8px;
+    margin: 2px 5px;
     transition: all 0.2s ease;
 }
 
 .dropdown-item:hover {
-    background-color: rgba(13, 110, 253, 0.1);
+    background-color: #bcd4f7;
     color: var(--primary-color);
-    transform: translateX(5px);
+    /* transform: translateX(3px); */
 }
 
 /* Animations */
