@@ -365,7 +365,7 @@ function loadRelatedProducts(currentProduct) {
                             </div>
                             <div class="rating">
                                 ${generateStars(product.rating)}
-                                <small class="text-muted">({product.reviews})</small>
+                                <small class="text-muted">(${product.reviews})</small>
                             </div>
                         </div>
                         <a href="product-detail.html?id=${product.id}" class="btn btn-outline-primary btn-sm w-100">
@@ -383,7 +383,7 @@ function loadRelatedProducts(currentProduct) {
         `;
     }
 }
-
+// báo lỗi khi chạy trang chi tiết đầu tiên
 function showError(message) {
     document.body.innerHTML = `
         <div class="container mt-5 pt-5">
