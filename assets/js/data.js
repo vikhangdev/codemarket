@@ -127,7 +127,7 @@ const products = [
         ],
         rating: 4.8,
         reviews: 156,
-        technologies: ["PHP", "Laravel", "phpMyAdmin"],
+        technologies: ["PHP", "Laravel", "MySQL"],
         features: [
             "Giao diện responsive hiện đại",
             "Hệ thống thanh toán tích hợp",
@@ -170,7 +170,7 @@ const products = [
             ],
         rating: 4.5,
         reviews: 78,
-        technologies: ["PHP", "Laravel", "PhpMyAdmin"],
+        technologies: ["PHP", "Laravel", "MySQL"],
         features: [
             "Quản lý sản phẩm: Danh mục, sách, thể loại, tác giả, tin tức",
             "Quản lý bán hàng: Nhập hàng, đơn đặt hàng, đơn bán hàng, đơn hàng trả lại sách, nhà cung cấp",
@@ -208,7 +208,7 @@ const products = [
         ],
         rating: 4.6,
         reviews: 89,
-        technologies: ["PHP", "Laravel", "PhpMyAdmin"],
+        technologies: ["PHP", "Laravel", "MySQL"],
         features: [
             "Tổng quan",
             "Quản lý sản phẩm",
@@ -257,7 +257,7 @@ const products = [
         ],
         rating: 4.7,
         reviews: 67,
-        technologies: ["PHP", "Laravel", "PhpMyAdmin"],
+        technologies: ["PHP", "Laravel", "MySQL"],
         features: [
             "Dashboard",
             "Danh mục sản phẩm",
@@ -301,7 +301,7 @@ const products = [
         ],
         rating: 4.7,
         reviews: 67,
-        technologies: ["PHP", "Laravel", "PhpMyAdmin"],
+        technologies: ["PHP", "Laravel", "MySQL"],
         features: [
             "Dashboard",
             "Phòng học",
@@ -313,7 +313,7 @@ const products = [
             "Tài khoản",
             "Cài đặt"
         ],
-        demo: "https://youtu.be/gmqSlDE7n_w",
+        demo: "",
         version: "2.1.0",
         lastUpdate: "2025-08-22",
         fileSize: "25 MB",
@@ -340,7 +340,7 @@ const products = [
         ],
         rating: 4.7,
         reviews: 67,
-        technologies: ["PHP", "Laravel", "PhpMyAdmin"],
+        technologies: ["PHP", "Laravel", "MySQL"],
         features: [
             "Dashboard",
             "Danh mục",
@@ -379,7 +379,7 @@ const products = [
         ],
         rating: 4.7,
         reviews: 67,
-        technologies: ["PHP", "Laravel", "PhpMyAdmin"],
+        technologies: ["PHP", "Laravel", "MySQL"],
         features: [
             "Dashboard",
             "Người dùng",

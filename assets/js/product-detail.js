@@ -52,26 +52,68 @@ function renderProductDetail(product) {
     setupImageGallery(product);
 }
 
+// Hiển thị ảnh chính và các ảnh phụ
+//----------------------------------------------------------------
+// function renderProductImages(product) {
+//     const mainImage = document.getElementById('mainImage');
+//     const thumbnails = document.getElementById('thumbnails');
+    
+//     if (mainImage) {
+//         mainImage.src = product.image;
+//         mainImage.alt = product.title;
+//     }
+    
+//     if (thumbnails && product.images) {
+//         thumbnails.innerHTML = product.images.map((image, index) => `
+//             <div class="col-3">
+//                 <img src="${image}" 
+//                      class="img-fluid rounded thumbnail-img ${index === 0 ? 'active' : ''}" 
+//                      alt="Product ${index + 1}"
+//                      onclick="changeMainImage('${image}', this)">
+//             </div>
+//         `).join('');
+//     }
+// }
+
 function renderProductImages(product) {
     const mainImage = document.getElementById('mainImage');
     const thumbnails = document.getElementById('thumbnails');
-    
+
     if (mainImage) {
         mainImage.src = product.image;
         mainImage.alt = product.title;
     }
-    
+
     if (thumbnails && product.images) {
         thumbnails.innerHTML = product.images.map((image, index) => `
-            <div class="col-3">
-                <img src="${image}" 
-                     class="img-fluid rounded thumbnail-img ${index === 0 ? 'active' : ''}" 
-                     alt="Product ${index + 1}"
-                     onclick="changeMainImage('${image}', this)">
-            </div>
+            <img src="${image}" 
+                 class="thumbnail-img ${index === 0 ? 'active' : ''}" 
+                 alt="Product ${index + 1}"
+                 onclick="changeMainImage('${image}', this)">
         `).join('');
     }
 }
+
+//Thêm logic điều khiển slider
+let currentSlide = 0;
+const visibleCount = 4;   // số ảnh hiển thị cùng lúc
+const thumbWidth = 110;   // ảnh + khoảng cách
+
+function slideThumbnails(direction) {
+    const track = document.querySelector(".thumb-track");
+    const total = track.children.length;
+
+    // Giới hạn slide
+    currentSlide += direction;
+
+    const maxSlide = total - visibleCount;
+    if (currentSlide < 0) currentSlide = 0;
+    if (currentSlide > maxSlide) currentSlide = maxSlide;
+
+    // Dịch chuyển
+    track.style.transform = `translateX(${-currentSlide * thumbWidth}px)`;
+}
+//------------------------------------------------------------------------------------------
 
 function renderProductInfo(product) {
     // Category
@@ -322,17 +364,27 @@ function setupImageGallery(product) {
         });
     });
 }
-
-function changeMainImage(imageSrc, thumbnailElement) {
-    const mainImage = document.getElementById('mainImage');
-    if (mainImage) {
-        mainImage.src = imageSrc;
-    }
+// hàm đổi ảnh chính
+//-----------------------------------------
+// function changeMainImage(imageSrc, thumbnailElement) {
+//     const mainImage = document.getElementById('mainImage');
+//     if (mainImage) {
+//         mainImage.src = imageSrc;
+//     }
     
-    // Update active thumbnail
-    document.querySelectorAll('.thumbnail-img').forEach(img => img.classList.remove('active'));
-    thumbnailElement.classList.add('active');
+//     // Update active thumbnail
+//     document.querySelectorAll('.thumbnail-img').forEach(img => img.classList.remove('active'));
+//     thumbnailElement.classList.add('active');
+// }
+function changeMainImage(image, element) {
+    document.getElementById("mainImage").src = image;
+
+    document.querySelectorAll(".thumbnail-img")
+        .forEach(img => img.classList.remove("active"));
+
+    element.classList.add("active");
 }
+//-----------------------------------------------------------------------------
 
 function loadRelatedProducts(currentProduct) {
     const relatedProductsElement = document.getElementById('relatedProducts');

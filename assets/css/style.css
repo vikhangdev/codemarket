@@ -388,15 +388,57 @@ body {
     height: 100%; /*bình thường 400px*/
     object-fit: contain;
 }
+/* -----Chỉnh ảnh phụ ----- */
 
-.thumbnail-images img {
+.thumb-slider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     width: 100%;
-    height: 100%; /*bình thường 100px*/
-    object-fit: cover;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    position: relative;
 }
+
+.thumb-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.thumb-track {
+    display: flex;
+    gap: 10px;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail-img {
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.thumbnail-img.active {
+    border-color: #007bff;
+}
+
+.thumb-btn {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumb-btn:hover {
+    background: #f0f0f0;
+}
+/* ---------------------------------- */
 
 .thumbnail-images img:hover,
 .thumbnail-images img.active {
