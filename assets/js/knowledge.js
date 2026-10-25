@@ -199,7 +199,6 @@ function getCategoryDisplayName(category) {
         'wordpress': 'Wordpress',
         'frontend': 'Frontend',
         'backend': 'Backend',
-        'programming': 'Programming',
         'mobile': 'Mobile',
         'database': 'Database',
         'hosting': 'Hosting',

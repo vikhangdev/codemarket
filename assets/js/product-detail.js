@@ -364,8 +364,9 @@ function setupImageGallery(product) {
         });
     });
 }
-// hàm đổi ảnh chính
-//-----------------------------------------
+
+//-- hàm đổi ảnh chính--------------------
+
 // function changeMainImage(imageSrc, thumbnailElement) {
 //     const mainImage = document.getElementById('mainImage');
 //     if (mainImage) {
@@ -384,7 +385,7 @@ function changeMainImage(image, element) {
 
     element.classList.add("active");
 }
-//-----------------------------------------------------------------------------
+//-------------------------------------------------
 
 function loadRelatedProducts(currentProduct) {
     const relatedProductsElement = document.getElementById('relatedProducts');

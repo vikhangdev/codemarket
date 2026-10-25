@@ -1,0 +1,6 @@
+# chặn tất cả các file.mp4 lên github
+*.mp4
+
+
+# hoặc nếu chỉ muốn chặn riêng thư mục video thì có thể dùng cách này
+#assets/image/img_product/*/*.mp4

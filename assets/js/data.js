@@ -90,7 +90,6 @@ const products = [
             "Quản lý sản phẩm",
             "Dashboard admin",
             "Quản lý danh mục",
-            "Quản lý sản phẩm",
             "Quản lý đơn hàng",
         ],
         demo: "https://youtu.be/l-zmiHSqXUk",
@@ -262,7 +261,6 @@ const products = [
             "Dashboard",
             "Danh mục sản phẩm",
             "Sản phẩm",
-            "Phụ kiện",
             "Tin tức",
             "Đơn hàng",
             "Hãng sản xuất",
@@ -611,6 +609,8 @@ const products = [
         fileSize: "8 MB",
         popular: false
     },
+
+    
     // deskktop từ 201 đến 300
     {
         id: 201,
@@ -707,67 +707,70 @@ const products = [
         fileSize: "42 MB",
         popular: true
     },
-    // game từ 301 đến 400
-    {
-        id: 301,
-        title: "2D Puzzle Game",
-        description: "Game giải đố 2D với Unity và C#",
-        category: "game",
-        subCategory: "csharp",
-        price: 1500000,
-        originalPrice: 2000000,
-        image: "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg",
-        images: [
-            "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg",
-            "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg"
-        ],
-        rating: 4.7,
-        reviews: 234,
-        technologies: ["Unity", "C#", "2D Graphics", "Audio System"],
-        features: [
-            "50+ levels thách thức",
-            "Hệ thống điểm số",
-            "Hiệu ứng âm thanh",
-            "Lưu game tự động",
-            "Giao diện thân thiện"
-        ],
-        demo: "https://demo.example.com",
-        version: "1.2.3",
-        lastUpdate: "2024-01-12",
-        fileSize: "120 MB",
-        popular: false
-    },
-    {
-        id: 302,
-        title: "Racing Game 3D",
-        description: "Game đua xe 3D với Unity",
-        category: "game",
-        subCategory: "csharp",
-        price: 3500000,
-        originalPrice: 4500000,
-        image: "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg",
-        images: [
-            "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg"
-        ],
-        rating: 4.8,
-        reviews: 167,
-        technologies: ["Unity", "C#", "3D Graphics", "Physics"],
-        features: [
-            "Realistic car physics",
-            "Multiple tracks",
-            "AI opponents",
-            "Customizable cars",
-            "Leaderboard system"
-        ],
-        demo: "https://demo.example.com",
-        version: "2.5.0",
-        lastUpdate: "2024-01-22",
-        fileSize: "350 MB",
-        popular: true
-    },
-    {
 
-    }
+
+
+    // game từ 301 đến 400
+    // {
+    //     id: 301,
+    //     title: "2D Puzzle Game",
+    //     description: "Game giải đố 2D với Unity và C#",
+    //     category: "game",
+    //     subCategory: "csharp",
+    //     price: 1500000,
+    //     originalPrice: 2000000,
+    //     image: "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg",
+    //     images: [
+    //         "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg",
+    //         "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg"
+    //     ],
+    //     rating: 4.7,
+    //     reviews: 234,
+    //     technologies: ["Unity", "C#", "2D Graphics", "Audio System"],
+    //     features: [
+    //         "50+ levels thách thức",
+    //         "Hệ thống điểm số",
+    //         "Hiệu ứng âm thanh",
+    //         "Lưu game tự động",
+    //         "Giao diện thân thiện"
+    //     ],
+    //     demo: "https://demo.example.com",
+    //     version: "1.2.3",
+    //     lastUpdate: "2024-01-12",
+    //     fileSize: "120 MB",
+    //     popular: false
+    // },
+    // {
+    //     id: 302,
+    //     title: "Racing Game 3D",
+    //     description: "Game đua xe 3D với Unity",
+    //     category: "game",
+    //     subCategory: "csharp",
+    //     price: 3500000,
+    //     originalPrice: 4500000,
+    //     image: "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg",
+    //     images: [
+    //         "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg"
+    //     ],
+    //     rating: 4.8,
+    //     reviews: 167,
+    //     technologies: ["Unity", "C#", "3D Graphics", "Physics"],
+    //     features: [
+    //         "Realistic car physics",
+    //         "Multiple tracks",
+    //         "AI opponents",
+    //         "Customizable cars",
+    //         "Leaderboard system"
+    //     ],
+    //     demo: "https://demo.example.com",
+    //     version: "2.5.0",
+    //     lastUpdate: "2024-01-22",
+    //     fileSize: "350 MB",
+    //     popular: true
+    // },
+    // {
+
+    // }
 ];
 
 // Knowledge Articles Data
@@ -1061,13 +1064,25 @@ const articles = [
         image: "assets/image/logo/Node.png",
         tags: ["NodeJS","Module","ExpressJS", "Backend"]
     },
-    // Programming
     {
-        id: 301,
+        id: 206,
+        title: "Học Dart",
+        excerpt: "Học ngôn ngữ Dart, viết ứng dụng Web Dart.",
+        content: "https://freetuts.net/hoc-nodejs",
+        category: "backend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-12",
+        readTime: "2 giờ",
+        views: 621,
+        image: "assets/image/logo/dart.png",
+        tags: ["NodeJS","Module","ExpressJS", "Backend"]
+    },
+    {
+        id: 207,
         title: "Tự Học ASP.NET",
         excerpt: "Từng bước học ASP.NET qua các ví dụ thực tế: từ cấu trúc project, routing, controller đến kết nối cơ sở dữ liệu.",
         content: "https://freetuts.net/hoc-asp-net",
-        category: "programming",
+        category: "backend",
         author: "Nguyễn Vĩ Khang",
         date: "2025-10-10",
         readTime: "12 phút",
@@ -1076,11 +1091,11 @@ const articles = [
         tags: ["ASP.NET", "Programming"]
     },
     {
-        id: 302,
+        id: 208,
         title: "Học Python",
         excerpt: "Tự học Python từng bước, từ cú pháp cơ bản đến lập trình hướng đối tượng và xử lý dữ liệu.",
         content: "https://freetuts.net/hoc-python",
-        category: "programming",
+        category: "backend",
         author: "Nguyễn Vĩ Khang",
         date: "2025-10-10",
         readTime: "12 phút",
@@ -1089,24 +1104,11 @@ const articles = [
         tags: ["Python", "Programming"]
     },
     {
-        id: 303,
-        title: "AI (Machine Learning)",
-        excerpt: "Học AI và Machine Learning từ cơ bản đến nâng cao. Khám phá các khái niệm, thuật toán,...",
-        content: "https://freetuts.net/ai-machine-learning",
-        category: "programming",
-        author: "Nguyễn Vĩ Khang",
-        date: "2025-10-10",
-        readTime: "2 phút",
-        views: 750,
-        image: "assets/image/logo/ai.png",
-        tags: ["AI","Machine Learning", "Programming"]
-    },
-    {
-        id: 304,
+        id: 209,
         title: "Học Java, toàn bộ kiến thức Java cơ bản và Java nâng cao",
         excerpt: "Nắm vững cú pháp, cấu trúc, lập trình hướng đối tượng và cách áp dụng Java trong dự án thực tế.",
         content: "https://freetuts.net/hoc-java",
-        category: "programming",
+        category: "backend",
         author: "Nguyễn Vĩ Khang",
         date: "2025-10-10",
         readTime: "12 phút",
@@ -1115,11 +1117,11 @@ const articles = [
         tags: ["Java", "Programming"]
     },
      {
-        id: 305,
+        id: 210,
         title: "Học C#",
         excerpt: "Tự học C# qua các ví dụ thực tế, nắm vững cú pháp, hướng đối tượng (OOP), xử lý dữ liệu và giao diện người dùng.",
         content: "https://freetuts.net/hoc-csharp",
-        category:"programming",
+        category:"backend",
         author: "Nguyễn Vĩ Khang",
         date: "2025-10-10",
         readTime: "12 phút",
@@ -1128,11 +1130,11 @@ const articles = [
         tags: ["C#", "Programming"]
     },
      {
-        id: 306,
+        id: 211,
         title: "Học Ruby",
         excerpt: "Nắm vững cú pháp, cấu trúc dữ liệu, hướng đối tượng và xử lý logic. Bước đầu làm quen với Ruby on Rails để phát triển ứng dụng web hiện đại.",
         content: "https://freetuts.net/hoc-ruby",
-        category: "programming",
+        category: "backend",
         author: "Nguyễn Vĩ Khang",
         date: "2025-10-10",
         readTime: "12 phút",
@@ -1141,24 +1143,11 @@ const articles = [
         tags: ["Ruby", "Programming"]
     },
      {
-        id: 307,
-        title: "Học Swift",
-        excerpt: "Tự học Swift qua các ví dụ thực tế. Tìm hiểu cú pháp, biến, hàm, lớp và giao diện người dùng trong Xcode.",
-        content: "https://freetuts.net/hoc-swift",
-        category: "programming",
-        author: "Nguyễn Vĩ Khang",
-        date: "2025-10-10",
-        readTime: "12 phút",
-        views: 221,
-        image: "assets/image/logo/Swift.jpg",
-        tags: ["Swift", "Programming"]
-    },
-     {
-        id: 308,
+        id: 212,
         title: "Học C / C++",
         excerpt: "Tự học C / C++ qua các ví dụ thực tế. Tìm hiểu cú pháp, hàm, con trỏ, mảng, lớp và hướng đối tượng.",
         content: "https://freetuts.net/hoc-c",
-        category: "programming",
+        category: "backend",
         author: "Nguyễn Vĩ Khang",
         date: "2025-10-10",
         readTime: "12 phút",
@@ -1166,38 +1155,12 @@ const articles = [
         image: "assets/image/logo/c-c++.jpg",
         tags: ["C/C++", "Programming"]
     },
-     {
-        id: 309,
-        title: "Học Kotlin",
-        excerpt: "Tự học Kotlin qua các ví dụ thực tế. Tìm hiểu cú pháp, biến, hàm, lớp, coroutine và cách áp dụng trong Android Studio. Phù hợp cho cả người mới bắt đầu và lập trình viên chuyển từ Java sang.",
-        content: "https://freetuts.net/kotlin",
-        category: "programming",
-        author: "Nguyễn Vĩ Khang",
-        date: "2025-10-10",
-        readTime: "12 phút",
-        views: 521,
-        image: "assets/image/logo/kotlin.png",
-        tags: ["Kotlin", "Programming"]
-    },
-     {
-        id: 310,
-        title: "Cấu trúc dữ liệu & Giải thuật",
-        excerpt: "Tìm hiểu các cấu trúc dữ liệu như mảng, danh sách liên kết, ngăn xếp, hàng đợi, cây, đồ thị cùng các giải thuật tìm kiếm và sắp xếp. Rèn luyện kỹ năng phân tích và thiết kế thuật toán qua ví dụ thực tế.",
-        content: "https://freetuts.net/giai-thuat",
-        category: "programming",
-        author: "Nguyễn Vĩ Khang",
-        date: "2025-10-10",
-        readTime: "12 phút",
-        views: 891,
-        image: "assets/image/logo/cau-truc-du-lieu-va-giai-thuat.png",
-        tags: ["Thuật toán", "Programming"]
-    },
     {
-        id: 311,
+        id: 213,
         title: "Học Visual Basic",
         excerpt: "Tự học Visual Basic qua ví dụ thực tế: từ cú pháp, biến, vòng lặp, điều kiện cho đến lập trình hướng đối tượng và kết nối cơ sở dữ liệu.",
         content: "https://freetuts.net/visual-basic",
-        category: "programming",
+        category: "backend",
         author: "Nguyễn Vĩ Khang",
         date: "2025-10-10",
         readTime: "12 phút",
@@ -1205,6 +1168,20 @@ const articles = [
         image: "assets/image/logo/visualbasic-dotnet.png",
         tags: ["AI","Machine Learning", "Programming"]
     },
+    {
+        id: 214,
+        title: "AI (Machine Learning)",
+        excerpt: "Học AI và Machine Learning từ cơ bản đến nâng cao. Khám phá các khái niệm, thuật toán,...",
+        content: "https://freetuts.net/ai-machine-learning",
+        category: "backend",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-10",
+        readTime: "2 phút",
+        views: 750,
+        image: "assets/image/logo/ai.png",
+        tags: ["AI","Machine Learning", "Programming"]
+    },
+    
     //Mobile
     {
         id: 401,
@@ -1257,6 +1234,32 @@ const articles = [
         views: 643,
         image: "assets/image/logo/IOS.png",
         tags: ["IOS","Mobile"]
+    },
+     {
+        id: 405,
+        title: "Học Swift",
+        excerpt: "Tự học Swift qua các ví dụ thực tế. Tìm hiểu cú pháp, biến, hàm, lớp và giao diện người dùng trong Xcode.",
+        content: "https://freetuts.net/hoc-swift",
+        category: "mobile",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-10",
+        readTime: "12 phút",
+        views: 221,
+        image: "assets/image/logo/Swift.jpg",
+        tags: ["Swift", "Programming"]
+    },
+     {
+        id: 406,
+        title: "Học Kotlin",
+        excerpt: "Tự học Kotlin qua các ví dụ thực tế. Tìm hiểu cú pháp, biến, hàm, lớp, coroutine và cách áp dụng trong Android Studio. Phù hợp cho cả người mới bắt đầu và lập trình viên chuyển từ Java sang.",
+        content: "https://freetuts.net/kotlin",
+        category: "mobile",
+        author: "Nguyễn Vĩ Khang",
+        date: "2025-10-10",
+        readTime: "12 phút",
+        views: 521,
+        image: "assets/image/logo/kotlin.png",
+        tags: ["Kotlin", "Programming"]
     },
     // Database
     {
